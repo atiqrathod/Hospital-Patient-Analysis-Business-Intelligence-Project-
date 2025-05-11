@@ -1,0 +1,584 @@
+﻿AGE,GENDER,TB,DB,Alkphos,Sgpt,Sgot,"TP	",ALB,"A/G Ratio	",Selector
+Old-Aged,Female,Low / Normal,Low,Low,Low,Low Range,High,High,Low,YES
+Old-Aged,Male,High,High,High,High,High Range,High,High,Low,YES
+Old-Aged,Male,High,High,High,High,High Range,High,High,Low,YES
+Old-Aged,Male,Low / Normal,High,Low,Low,Low Range,High,High,High,YES
+Old-Aged,Male,High,High,Moderate,Normal,Moderate Range,High,Low/Normal,Low,YES
+Middle-Aged,Male,High,High,Moderate,Low,Low Range,High,High,High,YES
+Adult,Female,Low / Normal,Low,Low,Low,Low Range,High,High,High,YES
+Adult,Female,Low / Normal,Low,Moderate,Low,Low Range,High,High,High,YES
+Adult,Male,Low / Normal,Low,Moderate,Low,Low Range,High,High,High,NO
+Old-Aged,Male,Low / Normal,Low,High,High,Moderate Range,High,High,High,YES
+Old-Aged,Male,Low / Normal,Low,Moderate,High,Moderate Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Moderate,Normal,Moderate Range,High,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,High,High,Moderate Range,High,High,Low,NO
+Old-Aged,Female,High,High,Moderate,Low,Moderate Range,High,High,High,YES
+Old-Aged,Male,Low / Normal,Low,Low,High,Moderate Range,Low,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,Low,High,Moderate Range,Low,Low/Normal,Low,NO
+Middle-Aged,Male,High,High,High,High,High Range,High,High,High,YES
+Adult,Male,High,High,Low,Low,Low Range,High,High,Low,NO
+Middle-Aged,Female,Low / Normal,Low,High,High,High Range,High,Low/Normal,Low,YES
+Middle-Aged,Female,Low / Normal,Low,High,High,High Range,High,Low/Normal,Low,YES
+Old-Aged,Male,High,High,High,Low,Low Range,High,Low/Normal,Low,YES
+Old-Aged,Male,High,High,High,Low,Moderate Range,High,Low/Normal,Low,YES
+Old-Aged,Male,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,High,High,Moderate,Low,Moderate Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,Moderate,High,Moderate Range,Low,High,High,NO
+Adult,Male,High,High,High,High,High Range,Low,Low/Normal,High,YES
+Adult,Male,High,High,High,High,High Range,Low,Low/Normal,High,YES
+Adult,Male,High,High,Moderate,High,High Range,High,High,High,YES
+Adult,Male,High,High,Low,Low,Moderate Range,Low,Low/Normal,High,NO
+Old-Aged,Female,Low / Normal,Low,Low,Low,Low Range,Low,High,High,NO
+Old-Aged,Male,High,High,Moderate,Normal,High Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,Low,Normal,Moderate Range,Low,Low/Normal,High,YES
+Old-Aged,Male,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,High,NO
+Middle-Aged,Female,High,High,High,High,Moderate Range,Low,Low/Normal,Low,NO
+Middle-Aged,Female,High,High,High,High,Moderate Range,Low,Low/Normal,Low,NO
+Adult,Male,High,High,High,High,High Range,High,High,Low,YES
+Adult,Female,Low / Normal,Low,Low,Low,Moderate Range,High,High,High,NO
+Middle-Aged,Female,High,High,High,Normal,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,High,High,Moderate,Normal,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,High,High,Moderate,High,High Range,Low,High,High,YES
+Middle-Aged,Male,High,High,Low,Normal,Moderate Range,Low,Low/Normal,High,YES
+Old-Aged,Male,Low / Normal,Low,Low,Normal,High Range,Low,Low/Normal,High,NO
+Middle-Aged,Male,High,High,High,Low,Moderate Range,Low,Low/Normal,Low,NO
+Middle-Aged,Male,High,High,High,High,High Range,Low,High,High,YES
+Old-Aged,Female,Low / Normal,Low,Moderate,Low,Low Range,High,High,High,NO
+Adult,Male,High,High,Moderate,Normal,High Range,Low,High,Low,NO
+Adult,Male,High,High,Low,Normal,Low Range,High,High,High,YES
+Middle-Aged,Male,High,Low,Moderate,High,High Range,Low,Low/Normal,High,YES
+Adult,Female,Low / Normal,Low,Low,Normal,Low Range,Low,Low/Normal,High,YES
+Old-Aged,Male,High,High,Moderate,High,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Female,Low / Normal,Low,Low,Normal,Low Range,Low,Low/Normal,Low,YES
+Adult,Female,Low / Normal,Low,Low,Low,Low Range,High,High,High,YES
+Middle-Aged,Male,High,High,Moderate,High,High Range,High,High,High,YES
+Middle-Aged,Male,High,Low,Moderate,High,High Range,Low,High,High,YES
+Middle-Aged,Male,High,High,Moderate,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,High,High,Moderate,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,Moderate,Low,Low Range,High,High,High,NO
+Middle-Aged,Female,Low / Normal,Low,Low,Low,Moderate Range,Low,Low/Normal,Low,NO
+Old-Aged,Male,Low / Normal,Low,Moderate,Normal,Low Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Low,Low,Low Range,Low,High,High,NO
+Adult,Female,Low / Normal,Low,Low,Normal,Low Range,Low,Low/Normal,High,YES
+Old-Aged,Male,Low / Normal,High,Low,Normal,Moderate Range,High,High,High,YES
+Old-Aged,Male,Low / Normal,High,Low,Normal,Moderate Range,High,High,High,YES
+Old-Aged,Male,Low / Normal,Low,Moderate,Normal,High Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Moderate,Normal,High Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Moderate,High,High Range,Low,High,High,YES
+Middle-Aged,Male,High,High,Moderate,High,Moderate Range,Low,High,High,YES
+Old-Aged,Male,Low / Normal,Low,Moderate,Normal,Low Range,Low,High,High,YES
+Old-Aged,Male,Low / Normal,Low,Moderate,Low,Low Range,Low,Low/Normal,Low,NO
+Adult,Female,Low / Normal,Low,Low,High,High Range,Low,Low/Normal,High,YES
+Old-Aged,Female,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,Low,YES
+Old-Aged,Female,Low / Normal,Low,Moderate,Normal,Low Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,Low,Low,Low Range,High,High,High,YES
+Old-Aged,Male,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,High,YES
+Adult,Female,Low / Normal,Low,Low,High,Moderate Range,Low,Low/Normal,Low,NO
+Adult,Male,Low / Normal,Low,High,High,Low Range,Low,Low/Normal,Low,YES
+Old-Aged,Female,Low / Normal,Low,High,High,High Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Low,Low,Low Range,Low,High,High,NO
+Old-Aged,Female,High,High,High,Normal,High Range,Low,Low/Normal,Low,YES
+Old-Aged,Female,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,High,YES
+Middle-Aged,Male,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,High,NO
+Adult,Male,High,High,Moderate,High,High Range,Low,Low/Normal,High,YES
+Adult,Male,Low / Normal,Low,Moderate,Normal,Moderate Range,High,High,High,YES
+Adult,Male,High,High,Moderate,High,Moderate Range,High,High,High,YES
+Adult,Male,Low / Normal,Low,High,Normal,Moderate Range,High,High,High,NO
+Old-Aged,Male,Low / Normal,Low,High,Normal,Moderate Range,Low,Low/Normal,High,YES
+Adult,Male,Low / Normal,Low,High,Normal,Moderate Range,High,High,Low,YES
+Old-Aged,Male,High,High,Moderate,High,High Range,High,High,Low,YES
+Old-Aged,Male,High,High,Moderate,High,High Range,High,High,Low,YES
+Old-Aged,Male,High,High,High,High,High Range,High,Low/Normal,Low,YES
+Old-Aged,Male,High,High,High,High,High Range,High,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Moderate,High,High Range,High,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Low,High,High Range,High,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,High,Low,Low Range,Low,Low/Normal,High,YES
+Middle-Aged,Male,High,High,High,High,High Range,High,High,Low,YES
+Middle-Aged,Male,High,High,Moderate,High,High Range,Low,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,Moderate,High,High Range,Low,Low/Normal,High,YES
+Adult,Male,Low / Normal,Low,High,High,High Range,High,High,High,YES
+Adult,Male,Low / Normal,Low,Low,Normal,Low Range,Low,Low/Normal,Low,NO
+Adult,Male,Low / Normal,Low,Moderate,Low,Low Range,Low,Low/Normal,Low,NO
+Adult,Male,Low / Normal,Low,Moderate,Normal,Moderate Range,High,High,High,YES
+Old-Aged,Female,Low / Normal,Low,Moderate,Low,Low Range,Low,High,High,NO
+Old-Aged,Male,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,High,High,Low,Normal,High Range,Low,Low/Normal,High,NO
+Middle-Aged,Male,High,High,Low,Normal,High Range,Low,Low/Normal,High,NO
+Middle-Aged,Male,Low / Normal,Low,Low,Normal,Moderate Range,Low,Low/Normal,Low,NO
+Middle-Aged,Male,Low / Normal,Low,Low,Normal,Moderate Range,Low,Low/Normal,Low,NO
+Middle-Aged,Male,Low / Normal,Low,High,Low,Moderate Range,Low,Low/Normal,Low,NO
+Adult,Female,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,High,NO
+Middle-Aged,Male,High,High,Moderate,Normal,High Range,Low,Low/Normal,Low,YES
+Adult,Male,High,High,Low,High,Moderate Range,Low,High,High,NO
+Old-Aged,Male,Low / Normal,Low,Moderate,Low,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,High,High,High,High,High Range,Low,Low/Normal,Low,NO
+Middle-Aged,Male,High,High,High,High,Moderate Range,Low,Low/Normal,Low,NO
+Middle-Aged,Male,Low / Normal,Low,High,High,High Range,Low,Low/Normal,Low,YES
+Adult,Male,High,High,Moderate,High,High Range,Low,High,High,YES
+Adult,Male,High,High,High,High,High Range,Low,Low/Normal,High,YES
+Adult,Male,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Adult,Male,High,High,High,High,High Range,High,High,Low,YES
+Adult,Male,High,High,High,High,High Range,High,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Low,High,High Range,Low,High,High,NO
+Old-Aged,Female,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,Low,Normal,Low Range,High,High,High,NO
+Old-Aged,Male,High,High,Moderate,Normal,Low Range,Low,Low/Normal,Low,NO
+Middle-Aged,Male,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Moderate,Normal,Moderate Range,Low,High,Low,YES
+Old-Aged,Female,High,High,High,High,High Range,Low,High,High,YES
+Middle-Aged,Male,High,High,Moderate,High,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,High,High,High,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Old-Aged,Female,Low / Normal,Low,Moderate,Low,Low Range,Low,Low/Normal,Low,NO
+Adult,Female,Low / Normal,Low,Moderate,Normal,Moderate Range,Low,High,High,NO
+Old-Aged,Male,Low / Normal,High,Moderate,Low,Low Range,High,Low/Normal,Low,YES
+Adult,Male,High,High,Low,Normal,Moderate Range,High,High,High,YES
+Old-Aged,Male,High,High,High,High,High Range,High,Low/Normal,Low,YES
+Middle-Aged,Female,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,High,High,High Range,Low,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,High,High,High Range,Low,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,High,Low,High Range,Low,High,High,YES
+Old-Aged,Male,Low / Normal,Low,Low,Low,Low Range,Low,High,High,NO
+Old-Aged,Female,High,High,Low,Low,Moderate Range,High,Low/Normal,Low,YES
+Adult,Male,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Adult,Male,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Female,High,High,Low,High,High Range,Low,Low/Normal,High,YES
+Old-Aged,Male,Low / Normal,Low,Moderate,Low,Low Range,Low,Low/Normal,High,NO
+Old-Aged,Female,High,High,Low,Low,Moderate Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,High,Low,Moderate Range,Low,Low/Normal,High,YES
+Middle-Aged,Male,Low / Normal,Low,High,Low,Low Range,High,High,High,YES
+Old-Aged,Male,Low / Normal,Low,High,Low,Low Range,High,High,High,YES
+Old-Aged,Male,High,High,Low,Normal,Moderate Range,High,High,High,NO
+Middle-Aged,Male,High,High,Moderate,Low,Low Range,Low,Low/Normal,High,YES
+Middle-Aged,Female,Low / Normal,Low,Low,Low,Moderate Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,Low,Low,Low Range,Low,High,High,NO
+Adult,Male,High,High,High,Normal,High Range,Low,Low/Normal,Low,YES
+Adult,Male,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,High,High,High Range,Low,Low/Normal,High,YES
+Old-Aged,Male,Low / Normal,Low,Moderate,Low,Moderate Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,Moderate,Low,Moderate Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,High,High,High,Normal,Moderate Range,High,High,High,YES
+Old-Aged,Male,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Low,High,High Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,High,Normal,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,High,High,Low,Normal,Moderate Range,High,High,High,YES
+Middle-Aged,Male,High,High,Low,Normal,Moderate Range,High,High,High,YES
+Middle-Aged,Male,High,High,High,Low,High Range,High,Low/Normal,Low,YES
+Old-Aged,Male,High,High,High,Normal,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Female,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,High,High,Moderate Range,High,High,Low,YES
+Old-Aged,Male,High,High,High,Normal,Moderate Range,High,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Moderate,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Middle-Aged,Female,High,High,High,High,High Range,High,High,High,YES
+Old-Aged,Male,High,High,High,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,Low,Normal,Moderate Range,Low,High,High,YES
+Adult,Male,Low / Normal,Low,Low,Normal,Moderate Range,Low,High,High,YES
+Adult,Male,Low / Normal,Low,Moderate,Normal,Moderate Range,High,High,High,YES
+Old-Aged,Male,Low / Normal,Low,High,High,High Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Low,High,Moderate Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,High,Normal,Low Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,High,Normal,Low Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Moderate,Low,Low Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Moderate,Normal,Moderate Range,Low,Low/Normal,High,YES
+Old-Aged,Male,High,High,Low,Normal,Moderate Range,Low,Low/Normal,Low,NO
+Middle-Aged,Male,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Moderate,Low,Low Range,High,High,High,YES
+Middle-Aged,Male,High,High,High,High,High Range,Low,Low/Normal,High,NO
+Old-Aged,Male,High,High,High,High,High Range,High,High,Low,YES
+Old-Aged,Male,High,High,Moderate,High,Low Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,High,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Middle-Aged,Female,Low / Normal,Low,Moderate,Normal,Low Range,Low,Low/Normal,Low,NO
+Old-Aged,Male,High,High,High,High,High Range,High,High,High,YES
+Old-Aged,Male,High,High,Moderate,High,High Range,High,High,High,YES
+Old-Aged,Male,High,High,Moderate,High,Moderate Range,High,High,High,YES
+Middle-Aged,Male,High,High,Moderate,Normal,Low Range,Low,Low/Normal,High,NO
+Middle-Aged,Male,High,High,Moderate,Normal,Moderate Range,Low,Low/Normal,High,NO
+Old-Aged,Male,High,High,High,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Adult,Female,Low / Normal,Low,Low,Low,Moderate Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,Low,NO
+Adult,Female,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,Low / Normal,Low,Moderate,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,Low / Normal,Low,Moderate,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Middle-Aged,Female,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,High,NO
+Adult,Male,Low / Normal,Low,Low,Normal,Low Range,Low,High,High,NO
+Adult,Male,Low / Normal,Low,Low,Normal,Low Range,Low,High,High,NO
+Middle-Aged,Male,High,High,Low,Normal,Low Range,High,High,High,YES
+Middle-Aged,Male,High,High,High,Normal,Moderate Range,High,Low/Normal,Low,YES
+Middle-Aged,Male,High,High,High,High,High Range,High,High,High,YES
+Old-Aged,Female,Low / Normal,Low,Moderate,High,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Female,Low / Normal,Low,Moderate,Low,Moderate Range,High,High,High,YES
+Adult,Male,Low / Normal,Low,Moderate,Low,Low Range,Low,Low/Normal,High,YES
+Middle-Aged,Male,High,High,Moderate,High,High Range,High,High,Low,YES
+Adult,Male,High,High,Low,High,High Range,Low,Low/Normal,High,NO
+Adult,Female,Low / Normal,Low,High,Low,Moderate Range,High,High,Low,YES
+Middle-Aged,Male,High,High,Low,Low,Moderate Range,High,High,High,YES
+Old-Aged,Male,Low / Normal,Low,Low,Low,High Range,Low,High,High,NO
+Old-Aged,Male,Low / Normal,Low,Low,Normal,Low Range,Low,High,High,NO
+Middle-Aged,Male,High,High,Low,Normal,Moderate Range,High,High,High,YES
+Adult,Male,Low / Normal,Low,High,Normal,Moderate Range,Low,Low/Normal,Low,NO
+Middle-Aged,Male,Low / Normal,Low,Low,Normal,Moderate Range,Low,High,High,YES
+Middle-Aged,Male,Low / Normal,Low,Low,Normal,Moderate Range,Low,Low/Normal,High,YES
+Middle-Aged,Male,Low / Normal,Low,Moderate,Normal,Low Range,High,High,High,YES
+Middle-Aged,Male,Low / Normal,Low,Moderate,Normal,Low Range,High,High,High,YES
+Middle-Aged,Male,High,Low,Low,Low,Low Range,High,High,High,NO
+Old-Aged,Male,High,High,High,High,Moderate Range,Low,Low/Normal,High,YES
+Adult,Male,Low / Normal,Low,Low,Normal,Moderate Range,High,High,High,YES
+Adult,Male,High,High,Low,Normal,Moderate Range,High,High,High,YES
+Old-Aged,Female,Low / Normal,Low,Low,Low,Low Range,Low,High,High,YES
+Old-Aged,Female,Low / Normal,Low,Moderate,Low,Low Range,Low,Low/Normal,Low,NO
+Middle-Aged,Male,Low / Normal,Low,High,Low,Low Range,Low,Low/Normal,High,YES
+Old-Aged,Male,High,High,Moderate,High,High Range,High,High,High,NO
+Old-Aged,Male,Low / Normal,Low,High,High,High Range,High,High,High,YES
+Middle-Aged,Male,High,High,Low,High,High Range,High,Low/Normal,Low,YES
+Adult,Male,High,High,High,Normal,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Female,Low / Normal,Low,High,Normal,Low Range,High,High,Low,YES
+Old-Aged,Male,High,High,High,Low,High Range,Low,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,High,High,Moderate Range,High,High,Low,NO
+Adult,Female,Low / Normal,Low,Low,Low,Low Range,High,High,High,YES
+Adult,Female,Low / Normal,Low,Moderate,Normal,Moderate Range,High,High,High,NO
+Middle-Aged,Male,Low / Normal,Low,Moderate,High,Moderate Range,High,Low/Normal,Low,YES
+Middle-Aged,Male,Low / Normal,Low,Low,Normal,Moderate Range,High,High,High,NO
+Old-Aged,Male,Low / Normal,Low,Moderate,Low,Moderate Range,Low,Low/Normal,Low,YES
+Adult,Female,Low / Normal,Low,Moderate,Normal,Low Range,High,High,High,YES
+Adult,Female,Low / Normal,Low,High,Low,Low Range,High,High,High,YES
+Old-Aged,Male,Low / Normal,Low,Moderate,Low,Low Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,High,Low,Low Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Moderate,Low,High Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,Moderate,Low,Low Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,Low / Normal,Low,Moderate,Normal,Low Range,Low,Low/Normal,High,YES
+Adult,Male,High,Low,High,Normal,Low Range,High,Low/Normal,Low,YES
+Adult,Male,High,High,High,Normal,Low Range,Low,Low/Normal,Low,YES
+Adult,Male,Low / Normal,High,High,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,Low,Moderate,Normal,Moderate Range,High,High,High,NO
+Adult,Female,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,High,NO
+Middle-Aged,Female,Low / Normal,Low,Low,High,Low Range,High,High,High,NO
+Middle-Aged,Male,High,High,High,High,Moderate Range,Low,Low/Normal,High,YES
+Middle-Aged,Male,Low / Normal,Low,High,Low,Low Range,Low,High,High,YES
+Middle-Aged,Male,Low / Normal,Low,High,High,High Range,Low,Low/Normal,High,YES
+Middle-Aged,Male,Low / Normal,Low,Low,Normal,Moderate Range,Low,High,High,NO
+Middle-Aged,Male,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,High,High,Moderate,High,High Range,Low,Low/Normal,Low,YES
+Adult,Male,High,High,High,High,High Range,High,High,High,YES
+Adult,Male,Low / Normal,Low,Moderate,High,Moderate Range,High,High,High,YES
+Middle-Aged,Female,Low / Normal,Low,Low,Low,Low Range,High,Low/Normal,Low,YES
+Middle-Aged,Male,Low / Normal,Low,Moderate,High,High Range,High,High,High,NO
+Adult,Male,Low / Normal,Low,High,Normal,Moderate Range,High,High,High,NO
+Old-Aged,Male,High,High,Moderate,Normal,Moderate Range,Low,High,High,YES
+Middle-Aged,Female,Low / Normal,Low,Low,Low,Low Range,High,High,High,YES
+Middle-Aged,Male,High,High,High,Normal,High Range,Low,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,High,YES
+Middle-Aged,Male,Low / Normal,Low,Moderate,High,Moderate Range,High,High,High,YES
+Adult,Male,Low / Normal,Low,High,High,High Range,Low,High,Low,NO
+Adult,Male,High,High,High,High,High Range,High,High,High,YES
+Adult,Male,Low / Normal,Low,Moderate,Low,Low Range,High,High,High,YES
+Adult,Male,High,High,Moderate,Low,Low Range,High,High,High,YES
+Adult,Male,High,High,Low,Low,Low Range,High,High,High,NO
+Adult,Male,Low / Normal,Low,Moderate,Low,Low Range,Low,High,High,NO
+Old-Aged,Male,High,High,Moderate,High,Moderate Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,High,High,Moderate,Low,Low Range,High,High,High,YES
+Middle-Aged,Female,Low / Normal,High,Low,Low,Low Range,High,High,High,YES
+Old-Aged,Male,Low / Normal,Low,Low,High,Moderate Range,Low,Low/Normal,High,YES
+Middle-Aged,Male,Low / Normal,Low,Moderate,Low,Low Range,High,High,High,NO
+Middle-Aged,Male,Low / Normal,Low,Low,Low,Low Range,High,High,Low,YES
+Adult,Male,High,High,High,Low,Low Range,Low,Low/Normal,Low,NO
+Adult,Male,Low / Normal,Low,High,Normal,Moderate Range,High,High,High,YES
+Adult,Male,High,High,High,Normal,Low Range,High,High,Low,YES
+Adult,Female,Low / Normal,Low,Moderate,Low,Low Range,High,High,High,YES
+Middle-Aged,Male,High,High,Low,Low,Low Range,High,High,High,NO
+Middle-Aged,Female,Low / Normal,High,Moderate,Low,Moderate Range,High,High,Low,YES
+Old-Aged,Male,High,High,High,High,High Range,High,High,High,YES
+Middle-Aged,Female,Low / Normal,Low,Moderate,Normal,Moderate Range,High,High,High,YES
+Old-Aged,Male,Low / Normal,Low,Low,Normal,Low Range,High,High,High,NO
+Middle-Aged,Male,Low / Normal,Low,Moderate,Low,Low Range,High,High,Low,YES
+Adult,Male,High,High,Moderate,Normal,Moderate Range,High,High,High,NO
+Adult,Male,High,High,High,Low,Low Range,High,High,High,YES
+Adult,Male,Low / Normal,Low,Moderate,High,Moderate Range,High,High,Low,YES
+Old-Aged,Female,Low / Normal,Low,Moderate,Low,Low Range,High,High,High,YES
+Adult,Female,Low / Normal,Low,Low,Low,Low Range,High,High,High,NO
+Adult,Female,High,Low,Moderate,Low,Low Range,High,High,Low,YES
+Adult,Female,Low / Normal,Low,Moderate,Normal,Moderate Range,High,High,High,NO
+Old-Aged,Male,Low / Normal,Low,Low,Normal,Low Range,High,High,High,NO
+Old-Aged,Female,Low / Normal,Low,High,Low,Moderate Range,High,High,Low,YES
+Middle-Aged,Female,High,High,High,Normal,Moderate Range,High,High,High,YES
+Middle-Aged,Male,Low / Normal,Low,Moderate,Low,Low Range,High,High,High,NO
+Old-Aged,Female,Low / Normal,Low,Low,Low,Low Range,High,High,High,YES
+Old-Aged,Female,High,High,Moderate,Normal,Low Range,High,High,Low,NO
+Middle-Aged,Male,High,High,High,High,High Range,High,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,Low,Normal,Moderate Range,Low,Low/Normal,High,YES
+Middle-Aged,Female,Low / Normal,Low,Low,Low,Low Range,High,High,High,YES
+Middle-Aged,Female,High,High,High,High,High Range,High,High,High,YES
+Old-Aged,Male,Low / Normal,Low,Low,Normal,Low Range,High,High,High,YES
+Old-Aged,Female,High,High,High,Normal,Moderate Range,High,High,Low,YES
+Adult,Male,High,High,Low,Low,Moderate Range,High,High,Low,NO
+Adult,Female,Low / Normal,Low,Low,Low,Low Range,High,High,High,NO
+Adult,Male,High,High,Moderate,Low,High Range,High,High,High,YES
+Adult,Male,Low / Normal,Low,Low,Low,Low Range,High,High,High,NO
+Middle-Aged,Male,Low / Normal,Low,Low,Normal,High Range,High,High,High,NO
+Adult,Male,Low / Normal,Low,Moderate,Normal,Moderate Range,High,High,High,YES
+Middle-Aged,Male,High,High,Moderate,High,High Range,High,High,High,YES
+Adult,Male,Low / Normal,Low,High,Low,Low Range,High,High,High,NO
+Adult,Female,Low / Normal,Low,Low,Normal,Low Range,Low,High,High,YES
+Adult,Female,Low / Normal,Low,Moderate,Normal,Moderate Range,Low,Low/Normal,High,YES
+Middle-Aged,Male,High,High,Moderate,Normal,Moderate Range,High,High,High,YES
+Adult,Male,Low / Normal,Low,High,Normal,High Range,High,High,High,NO
+Old-Aged,Male,High,High,Low,Normal,Moderate Range,Low,Low/Normal,High,YES
+Middle-Aged,Male,Low / Normal,Low,Low,Normal,Low Range,High,Low/Normal,Low,NO
+Middle-Aged,Female,High,High,High,High,High Range,High,High,High,NO
+Adult,Male,High,High,Low,Low,Moderate Range,High,High,High,NO
+Middle-Aged,Male,Low / Normal,Low,Moderate,Normal,Low Range,Low,Low/Normal,Low,NO
+Adult,Male,Low / Normal,Low,Moderate,Low,Low Range,High,High,High,NO
+Adult,Male,High,High,Low,High,High Range,Low,Low/Normal,Low,YES
+Adult,Male,High,High,Moderate,High,Moderate Range,Low,Low/Normal,Low,YES
+Adult,Male,High,High,Moderate,High,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Female,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,High,NO
+Adult,Female,Low / Normal,Low,High,Low,Low Range,High,High,High,YES
+Adult,Female,Low / Normal,Low,Low,Low,Low Range,High,High,High,YES
+Old-Aged,Male,High,High,High,High,High Range,Low,High,High,YES
+Old-Aged,Male,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,High,High,Moderate Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Moderate,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,Moderate,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Middle-Aged,Female,Low / Normal,Low,High,High,High Range,High,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,Moderate,Normal,Moderate Range,High,High,High,NO
+Old-Aged,Male,High,High,Moderate,Normal,Low Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,Low / Normal,Low,Moderate,High,Moderate Range,High,High,High,NO
+Old-Aged,Male,High,High,Moderate,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,Low / Normal,Low,Low,Low,Low Range,High,High,Low,YES
+Middle-Aged,Male,Low / Normal,Low,Moderate,High,High Range,High,High,High,YES
+Old-Aged,Male,High,High,High,Low,Low Range,Low,Low/Normal,Low,YES
+Middle-Aged,Female,Low / Normal,Low,Low,Low,Low Range,High,High,High,NO
+Middle-Aged,Male,High,High,Low,High,Moderate Range,Low,Low/Normal,High,YES
+Middle-Aged,Male,High,High,Moderate,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Adult,Female,Low / Normal,Low,Low,Normal,Moderate Range,High,High,High,YES
+Middle-Aged,Female,High,High,High,High,High Range,High,High,High,YES
+Middle-Aged,Female,Low / Normal,Low,Low,Low,Low Range,High,High,High,YES
+Adult,Male,High,High,Low,Low,Low Range,High,High,High,NO
+Adult,Male,Low / Normal,Low,Moderate,Low,Moderate Range,High,High,Low,YES
+Adult,Male,High,High,Moderate,Normal,Moderate Range,High,Low/Normal,Low,YES
+Middle-Aged,Male,Low / Normal,Low,Low,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Old-Aged,Female,Low / Normal,Low,Low,Normal,High Range,High,High,High,NO
+Adult,Male,Low / Normal,Low,Moderate,Normal,Low Range,High,High,High,YES
+Old-Aged,Female,Low / Normal,Low,Low,Low,Low Range,High,Low/Normal,Low,NO
+Old-Aged,Male,High,Low,Moderate,Low,Low Range,Low,Low/Normal,Low,NO
+Middle-Aged,Female,Low / Normal,Low,Low,Low,Low Range,High,High,High,NO
+Adult,Male,Low / Normal,Low,Low,Normal,Moderate Range,High,High,High,NO
+Middle-Aged,Male,Low / Normal,Low,Low,Normal,Moderate Range,Low,Low/Normal,Low,NO
+Adult,Male,Low / Normal,Low,High,Normal,Moderate Range,High,High,High,NO
+Old-Aged,Male,High,High,Moderate,Normal,Moderate Range,Low,Low/Normal,Low,NO
+Middle-Aged,Female,Low / Normal,Low,Low,Low,Low Range,High,High,High,YES
+Old-Aged,Female,Low / Normal,Low,Low,Low,Low Range,High,High,High,YES
+Old-Aged,Female,High,High,High,Normal,Moderate Range,High,High,Low,YES
+Adult,Male,Low / Normal,Low,Low,Normal,Low Range,High,High,High,NO
+Middle-Aged,Male,Low / Normal,Low,Moderate,Normal,Low Range,High,High,High,YES
+Adult,Female,Low / Normal,Low,Low,Normal,Low Range,High,High,High,NO
+Old-Aged,Female,Low / Normal,Low,Low,Low,Low Range,High,High,High,NO
+Middle-Aged,Male,High,High,Moderate,Normal,Moderate Range,High,High,High,YES
+Adult,Male,Low / Normal,Low,Low,Normal,Moderate Range,High,High,High,YES
+Adult,Female,Low / Normal,Low,Moderate,Low,Low Range,Low,Low/Normal,Low,NO
+Middle-Aged,Female,Low / Normal,Low,Moderate,Low,Moderate Range,High,High,Low,YES
+Old-Aged,Male,Low / Normal,Low,Low,Low,Low Range,High,High,High,NO
+Middle-Aged,Male,High,High,High,Normal,Moderate Range,High,High,Low,YES
+Middle-Aged,Male,Low / Normal,Low,Low,Normal,Moderate Range,High,High,Low,YES
+Old-Aged,Female,Low / Normal,Low,Low,Normal,Low Range,High,High,Low,YES
+Old-Aged,Female,High,High,Low,Low,Low Range,Low,Low/Normal,High,NO
+Adult,Male,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,Low / Normal,Low,Low,Normal,Moderate Range,High,High,High,YES
+Middle-Aged,Male,High,High,Low,Low,Low Range,High,High,High,NO
+Old-Aged,Male,Low / Normal,Low,Low,Normal,Low Range,High,High,High,YES
+Middle-Aged,Male,Low / Normal,Low,Low,Normal,Moderate Range,High,High,High,YES
+Old-Aged,Male,Low / Normal,Low,Low,Normal,Moderate Range,Low,High,High,YES
+Old-Aged,Male,Low / Normal,Low,Low,Low,Moderate Range,Low,Low/Normal,High,YES
+Old-Aged,Male,Low / Normal,Low,Low,Low,Low Range,High,High,High,YES
+Middle-Aged,Male,High,High,Low,High,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,High,High,High,High,High Range,High,High,High,YES
+Middle-Aged,Female,Low / Normal,Low,High,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,Low / Normal,Low,Low,Low,Low Range,Low,High,High,NO
+Old-Aged,Male,Low / Normal,Low,Low,Normal,Moderate Range,Low,High,High,YES
+Old-Aged,Male,Low / Normal,Low,Low,Normal,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,Low / Normal,Low,High,Low,Moderate Range,High,High,High,YES
+Adult,Male,Low / Normal,Low,High,High,High Range,Low,Low/Normal,High,YES
+Old-Aged,Female,Low / Normal,Low,Low,Low,Low Range,Low,High,High,NO
+Middle-Aged,Male,High,High,Low,Normal,High Range,High,Low/Normal,Low,YES
+Middle-Aged,Female,Low / Normal,Low,Low,High,High Range,High,High,Low,YES
+Old-Aged,Male,Low / Normal,Low,Moderate,Low,Low Range,Low,High,High,NO
+Adult,Male,Low / Normal,Low,Moderate,Low,Low Range,High,High,High,YES
+Adult,Female,Low / Normal,Low,Moderate,Low,Low Range,High,High,High,YES
+Middle-Aged,Male,Low / Normal,Low,Low,Low,Moderate Range,High,High,High,NO
+Adult,Male,Low / Normal,Low,Moderate,High,High Range,High,High,High,YES
+Middle-Aged,Male,High,High,High,High,High Range,High,High,Low,YES
+Middle-Aged,Male,High,High,High,High,High Range,Low,High,High,YES
+Adult,Male,High,High,Moderate,High,High Range,Low,Low/Normal,Low,YES
+Adult,Female,High,High,High,Normal,Moderate Range,High,Low/Normal,Low,NO
+Old-Aged,Male,High,High,Moderate,Normal,High Range,High,Low/Normal,Low,YES
+Middle-Aged,Male,Low / Normal,Low,Moderate,Low,Moderate Range,Low,Low/Normal,Low,NO
+Old-Aged,Male,High,High,Moderate,Normal,Low Range,Low,Low/Normal,Low,NO
+Old-Aged,Male,High,Low,High,High,Moderate Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,High,High,High Range,Low,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,High,Low,Low Range,High,High,High,NO
+Middle-Aged,Male,High,High,High,High,Moderate Range,High,Low/Normal,Low,YES
+Old-Aged,Female,High,High,High,High,High Range,High,Low/Normal,Low,YES
+Old-Aged,Female,High,High,High,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,Low,Normal,High Range,High,High,High,NO
+Middle-Aged,Male,High,High,Moderate,Normal,Moderate Range,High,High,High,YES
+Old-Aged,Male,High,High,Low,Normal,Moderate Range,Low,High,High,NO
+Adult,Female,Low / Normal,Low,Moderate,Low,Low Range,High,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,Low,High,High Range,Low,Low/Normal,High,YES
+Middle-Aged,Male,High,High,Low,Normal,Moderate Range,Low,Low/Normal,Low,NO
+Old-Aged,Male,Low / Normal,Low,Low,Normal,High Range,High,Low/Normal,Low,YES
+Old-Aged,Female,Low / Normal,Low,Moderate,Low,Low Range,High,High,Low,NO
+Old-Aged,Male,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Old-Aged,Female,Low / Normal,Low,Low,Low,Moderate Range,Low,Low/Normal,Low,YES
+Middle-Aged,Female,Low / Normal,Low,Moderate,Low,Low Range,High,Low/Normal,Low,NO
+Adult,Male,Low / Normal,Low,Low,High,High Range,High,High,High,YES
+Middle-Aged,Female,Low / Normal,Low,High,Normal,Low Range,High,High,High,NO
+Adult,Female,Low / Normal,Low,Moderate,Normal,Moderate Range,High,High,Low,NO
+Adult,Female,Low / Normal,Low,High,Normal,Low Range,High,High,High,NO
+Adult,Male,Low / Normal,Low,Moderate,Normal,High Range,Low,Low/Normal,High,YES
+Adult,Male,High,High,Low,Low,Moderate Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,Low,Normal,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Female,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,High,YES
+Middle-Aged,Female,Low / Normal,Low,Moderate,Low,Low Range,High,High,High,YES
+Middle-Aged,Female,High,High,High,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Middle-Aged,Female,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Female,Low / Normal,Low,Low,Normal,High Range,Low,High,High,YES
+Old-Aged,Male,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,Low,NO
+Adult,Male,Low / Normal,Low,High,Normal,Moderate Range,High,High,High,NO
+Old-Aged,Male,Low / Normal,Low,Low,Normal,Low Range,Low,Low/Normal,High,YES
+Middle-Aged,Female,High,High,High,High,High Range,High,High,Low,YES
+Middle-Aged,Female,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,Low,YES
+Middle-Aged,Female,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,High,YES
+Old-Aged,Male,High,High,High,Normal,High Range,Low,Low/Normal,High,YES
+Adult,Male,Low / Normal,Low,High,Low,Low Range,High,High,Low,YES
+Old-Aged,Male,Low / Normal,Low,Low,Low,Moderate Range,High,High,Low,YES
+Middle-Aged,Male,Low / Normal,Low,Moderate,Normal,Low Range,High,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,Low,Low,Low Range,High,High,High,NO
+Adult,Female,Low / Normal,Low,Low,Low,Low Range,High,High,High,YES
+Adult,Male,Low / Normal,Low,Moderate,Low,Moderate Range,High,Low/Normal,Low,NO
+Old-Aged,Male,Low / Normal,Low,Moderate,Normal,Moderate Range,High,High,Low,NO
+Adult,Male,High,High,Low,Normal,Low Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,High,Low,Moderate Range,Low,Low/Normal,Low,YES
+Adult,Female,High,High,Moderate,High,Moderate Range,Low,Low/Normal,Low,YES
+Adult,Female,Low / Normal,Low,High,High,Low Range,High,High,High,YES
+Middle-Aged,Male,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,Low,Low,Moderate Range,High,High,High,YES
+Middle-Aged,Female,Low / Normal,Low,Low,Low,Moderate Range,Low,Low/Normal,Low,NO
+Middle-Aged,Female,Low / Normal,Low,Moderate,Low,Moderate Range,Low,Low/Normal,Low,NO
+Adult,Female,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,Low,NO
+Adult,Female,Low / Normal,Low,Low,Low,High Range,High,Low/Normal,Low,NO
+Old-Aged,Male,Low / Normal,Low,Moderate,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,Low,Low,Moderate Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Low,Low,Moderate Range,High,High,High,YES
+Middle-Aged,Female,Low / Normal,Low,Low,Low,Low Range,High,Low/Normal,Low,NO
+Middle-Aged,Male,Low / Normal,Low,Moderate,High,Moderate Range,Low,Low/Normal,Low,NO
+Middle-Aged,Male,Low / Normal,Low,Low,Normal,Low Range,High,High,High,NO
+Adult,Male,High,High,Moderate,Normal,High Range,Low,Low/Normal,Low,NO
+Middle-Aged,Male,High,High,High,High,Moderate Range,High,High,High,NO
+Middle-Aged,Male,Low / Normal,Low,High,Low,Low Range,Low,Low/Normal,High,YES
+Old-Aged,Male,Low / Normal,Low,Moderate,Low,Moderate Range,Low,Low/Normal,Low,YES
+Adult,Male,High,High,Moderate,High,High Range,High,High,High,YES
+Adult,Male,High,High,Low,High,High Range,High,High,Low,YES
+Adult,Male,Low / Normal,Low,High,Normal,Moderate Range,High,High,High,NO
+Middle-Aged,Male,High,High,High,High,High Range,High,High,High,YES
+Middle-Aged,Male,High,High,Low,High,High Range,High,High,High,YES
+Adult,Male,Low / Normal,Low,Low,Normal,Moderate Range,High,High,High,NO
+Old-Aged,Male,High,High,Low,Low,Moderate Range,Low,Low/Normal,High,YES
+Adult,Female,High,High,High,High,Low Range,Low,Low/Normal,Low,YES
+Middle-Aged,Female,Low / Normal,Low,Moderate,Low,Low Range,High,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,High,High,High Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,Low,Normal,Low Range,High,High,High,NO
+Old-Aged,Male,Low / Normal,Low,Low,Low,Low Range,Low,High,High,NO
+Old-Aged,Female,Low / Normal,Low,Moderate,High,Moderate Range,High,High,High,YES
+Adult,Male,Low / Normal,Low,Low,High,High Range,High,High,High,NO
+Adult,Female,Low / Normal,Low,High,High,High Range,High,High,Low,YES
+Old-Aged,Male,Low / Normal,Low,Moderate,Normal,Low Range,Low,Low/Normal,Low,NO
+Adult,Male,Low / Normal,Low,Low,High,High Range,Low,High,High,YES
+Adult,Male,Low / Normal,Low,Low,Normal,Low Range,Low,Low/Normal,High,NO
+Adult,Male,Low / Normal,Low,Moderate,High,Moderate Range,High,High,High,YES
+Old-Aged,Male,High,High,Moderate,Normal,Moderate Range,High,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Low,Low,Low Range,Low,High,High,YES
+Old-Aged,Male,High,High,High,Normal,High Range,High,Low/Normal,Low,YES
+Old-Aged,Male,High,High,High,High,Moderate Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,High,High,High,Normal,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,Low / Normal,Low,Low,Normal,Moderate Range,Low,Low/Normal,High,YES
+Old-Aged,Male,High,High,Moderate,Normal,High Range,High,Low/Normal,Low,YES
+Adult,Male,High,High,Moderate,Normal,High Range,Low,Low/Normal,Low,YES
+Adult,Male,High,High,Moderate,High,High Range,Low,Low/Normal,High,YES
+Old-Aged,Male,High,High,Moderate,Normal,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,Low / Normal,Low,Moderate,High,High Range,High,High,High,YES
+Middle-Aged,Male,High,High,High,High,High Range,High,High,Low,YES
+Middle-Aged,Male,High,High,Moderate,High,High Range,Low,Low/Normal,High,YES
+Middle-Aged,Female,Low / Normal,Low,Moderate,Normal,Moderate Range,High,High,High,NO
+Middle-Aged,Male,High,High,High,Normal,Moderate Range,High,High,High,YES
+Old-Aged,Male,Low / Normal,Low,Moderate,Low,Low Range,Low,Low/Normal,Low,NO
+Old-Aged,Male,Low / Normal,Low,Moderate,Normal,Low Range,High,Low/Normal,Low,YES
+Middle-Aged,Male,Low / Normal,Low,Moderate,Normal,Moderate Range,High,High,High,YES
+Middle-Aged,Male,High,High,Moderate,High,High Range,High,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,Low,Low,Low Range,High,Low/Normal,Low,YES
+Adult,Male,Low / Normal,Low,Moderate,Normal,Low Range,High,High,High,YES
+Middle-Aged,Male,High,High,Moderate,High,High Range,High,High,High,YES
+Adult,Male,High,High,Low,High,High Range,High,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Moderate,High,High Range,High,High,Low,YES
+Old-Aged,Male,High,High,Moderate,Low,Low Range,High,Low/Normal,Low,YES
+Middle-Aged,Female,Low / Normal,Low,Low,Low,Low Range,High,High,Low,YES
+Middle-Aged,Male,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,High,YES
+Adult,Male,Low / Normal,Low,Low,Low,Low Range,High,High,High,NO
+Old-Aged,Female,Low / Normal,Low,Moderate,Normal,Moderate Range,High,High,Low,NO
+Middle-Aged,Male,High,High,Moderate,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,High,High,High,High,High Range,High,High,Low,YES
+Middle-Aged,Male,High,High,High,Low,Moderate Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Moderate,High,High Range,Low,Low/Normal,Low,YES
+Adult,Female,High,Low,Low,Low,Low Range,High,High,High,NO
+Middle-Aged,Male,High,High,High,High,High Range,High,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,Low,Low,Low Range,High,High,Low,NO
+Middle-Aged,Female,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,High,High,Moderate,High,High Range,High,High,High,NO
+Old-Aged,Male,High,High,High,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Middle-Aged,Male,High,High,Moderate,High,High Range,High,Low/Normal,Low,YES
+Adult,Female,Low / Normal,Low,High,Low,High Range,High,High,Low,YES
+Old-Aged,Male,High,High,Low,High,High Range,Low,Low/Normal,Low,YES
+Old-Aged,Female,Low / Normal,Low,High,Low,Moderate Range,High,High,Low,NO
+Middle-Aged,Male,Low / Normal,Low,Low,Low,Low Range,High,Low/Normal,Low,NO
+Middle-Aged,Male,Low / Normal,Low,Moderate,Normal,Low Range,High,Low/Normal,Low,NO
+Old-Aged,Male,Low / Normal,Low,Low,Normal,Moderate Range,High,High,High,NO
+Middle-Aged,Male,High,High,Moderate,Low,Low Range,High,High,High,YES
+Old-Aged,Female,High,High,High,High,Moderate Range,High,High,Low,YES
+Middle-Aged,Female,Low / Normal,Low,Low,Normal,Moderate Range,Low,Low/Normal,Low,NO
+Middle-Aged,Male,High,High,Low,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Middle-Aged,Female,High,High,High,Normal,High Range,High,Low/Normal,Low,YES
+Middle-Aged,Male,High,High,Moderate,High,High Range,High,Low/Normal,High,YES
+Middle-Aged,Female,High,High,High,High,High Range,High,High,High,YES
+Middle-Aged,Male,High,High,Low,Low,Moderate Range,Low,Low/Normal,Low,YES
+Adult,Male,High,High,Low,Low,Low Range,Low,Low/Normal,Low,NO
+Middle-Aged,Male,Low / Normal,Low,Moderate,Normal,Moderate Range,Low,Low/Normal,High,YES
+Middle-Aged,Male,High,High,Moderate,High,High Range,High,Low/Normal,Low,YES
+Old-Aged,Male,High,High,Moderate,Low,Moderate Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,High,High,High Range,High,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,Low,Low,Low Range,Low,Low/Normal,High,YES
+Old-Aged,Male,High,High,Moderate,High,High Range,Low,Low/Normal,High,YES
+Old-Aged,Male,High,High,Moderate,High,High Range,High,High,High,YES
+Adult,Male,High,High,High,High,High Range,High,Low/Normal,Low,YES
+Old-Aged,Male,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,High,High,High,High Range,High,Low/Normal,Low,YES
+Old-Aged,Male,High,High,High,High,High Range,High,Low/Normal,Low,YES
+Old-Aged,Male,High,High,High,Normal,High Range,High,Low/Normal,Low,YES
+Middle-Aged,Female,High,Low,Low,Low,Moderate Range,Low,Low/Normal,Low,NO
+Middle-Aged,Male,High,High,Low,Low,High Range,High,Low/Normal,Low,YES
+Middle-Aged,Female,Low / Normal,Low,Moderate,Low,Moderate Range,High,High,High,NO
+Old-Aged,Male,High,High,Moderate,Low,Moderate Range,Low,Low/Normal,Low,YES
+Adult,Female,High,High,Moderate,High,High Range,High,High,High,YES
+Adult,Male,High,High,Moderate,High,High Range,High,High,High,YES
+Adult,Male,High,High,Moderate,High,High Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,High,Low,Moderate,Normal,High Range,High,Low/Normal,Low,YES
+Adult,Male,High,High,Low,High,High Range,Low,High,High,YES
+Adult,Male,High,High,High,Normal,High Range,Low,Low/Normal,Low,YES
+Adult,Male,High,High,High,Normal,High Range,High,Low/Normal,Low,YES
+Adult,Male,High,High,High,Normal,High Range,High,Low/Normal,High,YES
+Adult,Male,High,High,High,High,High Range,Low,Low/Normal,Low,YES
+Adult,Male,High,High,Moderate,Normal,Moderate Range,Low,Low/Normal,Low,YES
+Old-Aged,Male,Low / Normal,Low,High,Low,Moderate Range,Low,Low/Normal,Low,NO
+Middle-Aged,Male,Low / Normal,Low,Low,Normal,Moderate Range,Low,High,High,YES
+Old-Aged,Male,Low / Normal,Low,Moderate,Normal,Moderate Range,Low,High,High,YES
+Adult,Male,High,High,Low,Normal,Moderate Range,High,High,High,YES
+Middle-Aged,Male,Low / Normal,Low,Moderate,Low,Low Range,High,High,High,NO

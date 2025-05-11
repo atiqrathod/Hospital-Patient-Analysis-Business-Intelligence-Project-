@@ -1,0 +1,1422 @@
+@relation 'Cleaned Hospital Data-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1-weka.filters.supervised.instance.SMOTE-C0-K5-P100.0-S1'
+
+@attribute Age {'Middle age','Old Age','young age'}
+@attribute Gender {Male,Female}
+@attribute Blood_Pressure {'High BP','Low BP'}
+@attribute Heart_Rate {High,Mid,Low}
+@attribute Diagnosis {Covid-19,Asthma,Flu,Hypertension,Diabetes}
+@attribute Treatment_Type {Surgery,Observation,Therapy,Medication}
+@attribute Length_of_Stay {Mid,Low,High}
+@attribute Insurance_Type {Private,Uninsured,Medicare,Medicaid}
+@attribute Hospital_Region {South,West,North,East}
+@attribute Recovery_Status {'In Treatment',Critical,Recovered}
+
+@data
+'Middle age',Male,'High BP',High,Covid-19,Surgery,Mid,Private,South,'In Treatment'
+'Middle age',Male,'Low BP',Mid,Asthma,Observation,Low,Uninsured,West,Critical
+'Old Age',Female,'Low BP',High,Covid-19,Therapy,Low,Medicare,North,Recovered
+'Old Age',Female,'Low BP',Mid,Flu,Surgery,Low,Uninsured,South,Recovered
+'Middle age',Male,'Low BP',High,Hypertension,Surgery,Mid,Medicare,East,Critical
+'Old Age',Male,'Low BP',Low,Asthma,Surgery,High,Private,South,Critical
+'young age',Female,'Low BP',High,Diabetes,Therapy,Low,Private,South,Critical
+'young age',Female,'Low BP',High,Hypertension,Therapy,Mid,Medicaid,West,Recovered
+'young age',Female,'Low BP',Mid,Asthma,Surgery,Low,Medicaid,South,Recovered
+'young age',Male,'Low BP',High,Hypertension,Observation,High,Medicare,West,Critical
+'young age',Female,'High BP',Mid,Covid-19,Therapy,High,Private,North,Recovered
+'young age',Male,'High BP',Mid,Diabetes,Therapy,High,Private,South,'In Treatment'
+'Old Age',Male,'Low BP',Mid,Diabetes,Observation,High,Uninsured,South,Recovered
+'Old Age',Female,'Low BP',Low,Flu,Medication,Low,Private,South,Recovered
+'Old Age',Male,'Low BP',High,Covid-19,Observation,Mid,Private,East,Critical
+'young age',Male,'High BP',Mid,Flu,Surgery,High,Uninsured,West,'In Treatment'
+'Middle age',Female,'High BP',Mid,Flu,Therapy,Low,Uninsured,West,Critical
+'Middle age',Male,'Low BP',Low,Covid-19,Therapy,High,Private,East,Recovered
+'Middle age',Female,'High BP',Mid,Asthma,Therapy,Mid,Medicaid,West,'In Treatment'
+'Old Age',Female,'Low BP',Low,Flu,Therapy,Low,Medicaid,North,Critical
+'Middle age',Female,'High BP',High,Hypertension,Medication,Mid,Private,East,Recovered
+'Old Age',Male,'Low BP',High,Asthma,Therapy,High,Medicaid,West,'In Treatment'
+'young age',Female,'Low BP',Low,Covid-19,Therapy,High,Uninsured,North,Critical
+'young age',Female,'Low BP',Low,Diabetes,Medication,Mid,Medicaid,West,'In Treatment'
+'Middle age',Male,'Low BP',Low,Asthma,Surgery,High,Private,East,Recovered
+'Old Age',Male,'High BP',Mid,Flu,Surgery,Low,Medicaid,West,Critical
+'Middle age',Female,'Low BP',High,Hypertension,Medication,Low,Private,North,Recovered
+'Old Age',Male,'High BP',Low,Covid-19,Surgery,High,Medicaid,North,'In Treatment'
+'Middle age',Male,'Low BP',Low,Diabetes,Surgery,High,Private,North,Recovered
+'young age',Male,'Low BP',Low,Hypertension,Observation,Low,Private,West,'In Treatment'
+'Middle age',Male,'Low BP',Mid,Diabetes,Observation,Low,Medicaid,East,Critical
+'young age',Male,'Low BP',Mid,Covid-19,Observation,High,Medicaid,West,Recovered
+'Old Age',Female,'Low BP',High,Asthma,Medication,Low,Uninsured,South,Critical
+'young age',Female,'High BP',Low,Flu,Therapy,Mid,Medicare,East,Critical
+'Middle age',Female,'Low BP',Mid,Covid-19,Medication,Low,Private,South,Critical
+'young age',Male,'Low BP',Low,Hypertension,Medication,Low,Private,West,Critical
+'young age',Male,'High BP',High,Asthma,Medication,Mid,Private,East,Recovered
+'Middle age',Female,'Low BP',High,Diabetes,Medication,Mid,Private,South,Recovered
+'Old Age',Female,'Low BP',Low,Asthma,Observation,Mid,Medicaid,West,Critical
+'Middle age',Female,'High BP',Low,Asthma,Medication,Mid,Medicaid,East,Critical
+'young age',Male,'Low BP',Mid,Hypertension,Observation,Low,Medicare,North,'In Treatment'
+'young age',Female,'Low BP',High,Flu,Therapy,Mid,Private,North,Critical
+'Old Age',Male,'Low BP',Mid,Asthma,Surgery,Mid,Medicare,North,'In Treatment'
+'Old Age',Female,'High BP',Mid,Asthma,Observation,High,Uninsured,South,'In Treatment'
+'Middle age',Female,'Low BP',Low,Flu,Medication,High,Medicare,South,Critical
+'Old Age',Male,'Low BP',High,Flu,Therapy,Low,Medicare,West,Recovered
+'Old Age',Male,'Low BP',High,Diabetes,Medication,Low,Uninsured,North,'In Treatment'
+'Old Age',Female,'High BP',Low,Diabetes,Therapy,Mid,Uninsured,South,Recovered
+'Middle age',Female,'High BP',Low,Flu,Surgery,High,Medicare,North,Critical
+'young age',Female,'Low BP',High,Covid-19,Therapy,Low,Uninsured,West,Critical
+'Middle age',Male,'Low BP',Mid,Flu,Therapy,Low,Medicare,East,Critical
+'Middle age',Male,'Low BP',Low,Diabetes,Surgery,Mid,Medicaid,South,Critical
+'Middle age',Female,'High BP',High,Hypertension,Surgery,High,Medicaid,South,'In Treatment'
+'Old Age',Female,'Low BP',Mid,Hypertension,Therapy,Mid,Medicare,East,'In Treatment'
+'Middle age',Female,'High BP',High,Asthma,Medication,High,Uninsured,South,Recovered
+'Middle age',Male,'High BP',High,Hypertension,Observation,High,Uninsured,West,Recovered
+'Middle age',Female,'Low BP',Mid,Diabetes,Medication,High,Medicaid,South,'In Treatment'
+'Old Age',Female,'High BP',High,Hypertension,Observation,Mid,Medicaid,South,Critical
+'Old Age',Male,'High BP',Low,Covid-19,Surgery,Low,Uninsured,East,Recovered
+'young age',Female,'Low BP',Mid,Flu,Medication,Mid,Uninsured,West,'In Treatment'
+'young age',Female,'High BP',High,Flu,Surgery,Mid,Uninsured,North,Recovered
+'Old Age',Male,'Low BP',Mid,Diabetes,Therapy,Mid,Uninsured,North,'In Treatment'
+'young age',Male,'High BP',High,Asthma,Therapy,Low,Medicare,East,Critical
+'Old Age',Female,'High BP',Mid,Flu,Medication,Mid,Uninsured,West,'In Treatment'
+'Middle age',Male,'High BP',Mid,Hypertension,Surgery,High,Medicaid,East,Recovered
+'Old Age',Male,'Low BP',High,Covid-19,Medication,High,Medicaid,East,'In Treatment'
+'Middle age',Male,'Low BP',High,Asthma,Medication,Low,Private,North,Recovered
+'young age',Male,'High BP',Mid,Asthma,Observation,Low,Uninsured,West,Recovered
+'Middle age',Male,'Low BP',High,Asthma,Therapy,High,Medicare,West,Recovered
+'Old Age',Male,'Low BP',Mid,Flu,Medication,High,Private,East,Critical
+'Old Age',Male,'Low BP',Low,Asthma,Therapy,Mid,Private,North,Critical
+'Middle age',Female,'Low BP',High,Diabetes,Observation,High,Medicare,West,'In Treatment'
+'Old Age',Male,'High BP',Low,Hypertension,Surgery,High,Private,East,'In Treatment'
+'young age',Male,'Low BP',High,Covid-19,Medication,High,Private,South,Recovered
+'young age',Male,'High BP',Low,Hypertension,Therapy,Low,Medicaid,North,Critical
+'Middle age',Male,'Low BP',High,Diabetes,Medication,Mid,Private,West,'In Treatment'
+'Old Age',Female,'Low BP',High,Diabetes,Surgery,High,Medicare,West,'In Treatment'
+'Middle age',Female,'Low BP',Low,Hypertension,Medication,Low,Uninsured,West,Critical
+'Middle age',Male,'Low BP',Mid,Flu,Medication,Low,Uninsured,North,Recovered
+'Middle age',Female,'Low BP',Mid,Diabetes,Therapy,Low,Uninsured,East,'In Treatment'
+'Old Age',Female,'High BP',High,Asthma,Surgery,High,Medicaid,South,Recovered
+'Middle age',Female,'High BP',Mid,Covid-19,Observation,Low,Medicaid,West,Critical
+'Old Age',Female,'Low BP',High,Covid-19,Surgery,Mid,Medicaid,North,Critical
+'Old Age',Female,'High BP',Mid,Diabetes,Surgery,Mid,Medicare,West,'In Treatment'
+'Old Age',Male,'Low BP',Low,Asthma,Observation,Low,Uninsured,East,'In Treatment'
+'Old Age',Male,'Low BP',High,Hypertension,Medication,Mid,Medicare,South,Critical
+'Middle age',Male,'Low BP',Low,Covid-19,Therapy,Mid,Medicare,West,Recovered
+'young age',Female,'Low BP',Low,Asthma,Medication,Mid,Private,North,Recovered
+'Middle age',Male,'High BP',Mid,Asthma,Medication,High,Uninsured,East,Critical
+'Old Age',Female,'High BP',High,Flu,Observation,High,Private,South,'In Treatment'
+'young age',Male,'Low BP',Mid,Diabetes,Observation,Low,Medicaid,North,Critical
+'Old Age',Male,'High BP',Mid,Asthma,Medication,High,Medicaid,West,'In Treatment'
+'Old Age',Male,'Low BP',High,Hypertension,Surgery,Low,Medicare,North,Recovered
+'Middle age',Male,'High BP',High,Covid-19,Therapy,High,Medicare,South,'In Treatment'
+'young age',Female,'High BP',Low,Flu,Surgery,Low,Private,East,Recovered
+'Middle age',Male,'High BP',Mid,Hypertension,Medication,Mid,Private,East,Critical
+'Old Age',Male,'High BP',Low,Covid-19,Medication,Mid,Medicare,West,'In Treatment'
+'Old Age',Female,'Low BP',Mid,Diabetes,Therapy,Mid,Uninsured,West,Recovered
+'young age',Female,'High BP',Low,Hypertension,Surgery,Low,Medicare,West,'In Treatment'
+'Middle age',Male,'High BP',Mid,Covid-19,Medication,Low,Uninsured,West,Recovered
+'Middle age',Male,'High BP',Mid,Flu,Medication,Mid,Private,South,Recovered
+'Old Age',Female,'High BP',Low,Covid-19,Observation,Low,Medicaid,West,Critical
+'Middle age',Female,'High BP',High,Asthma,Therapy,High,Medicaid,North,Critical
+'Old Age',Male,'High BP',Mid,Flu,Observation,Low,Private,South,'In Treatment'
+'Middle age',Female,'High BP',Mid,Hypertension,Observation,Mid,Private,South,Recovered
+'young age',Female,'High BP',High,Diabetes,Observation,High,Medicaid,West,Critical
+'young age',Male,'High BP',Mid,Flu,Medication,Mid,Uninsured,South,'In Treatment'
+'Middle age',Male,'Low BP',Low,Flu,Surgery,Mid,Private,North,Critical
+'Middle age',Male,'High BP',Mid,Flu,Observation,High,Uninsured,South,'In Treatment'
+'Old Age',Female,'High BP',High,Covid-19,Surgery,Mid,Uninsured,South,Critical
+'Old Age',Male,'Low BP',High,Asthma,Medication,Mid,Medicaid,North,Critical
+'Old Age',Male,'Low BP',Low,Diabetes,Observation,High,Uninsured,North,Recovered
+'Middle age',Male,'High BP',Low,Diabetes,Medication,Low,Medicaid,South,Recovered
+'Old Age',Female,'Low BP',High,Asthma,Observation,Mid,Private,East,Critical
+'Old Age',Male,'Low BP',Low,Covid-19,Observation,High,Medicare,South,Recovered
+'Old Age',Male,'High BP',High,Covid-19,Medication,High,Medicare,North,Critical
+'young age',Female,'Low BP',Low,Asthma,Therapy,High,Medicare,North,'In Treatment'
+'young age',Female,'High BP',Low,Asthma,Therapy,Low,Medicare,North,Critical
+'Old Age',Male,'High BP',Low,Hypertension,Surgery,Low,Medicare,East,Critical
+'Old Age',Male,'High BP',Mid,Covid-19,Surgery,Mid,Medicare,North,'In Treatment'
+'Old Age',Male,'Low BP',High,Flu,Medication,Low,Uninsured,West,'In Treatment'
+'young age',Female,'Low BP',Mid,Diabetes,Medication,Low,Uninsured,West,Recovered
+'Middle age',Male,'Low BP',Mid,Covid-19,Medication,High,Medicare,East,'In Treatment'
+'Middle age',Male,'Low BP',High,Asthma,Therapy,Low,Private,North,Recovered
+'young age',Female,'High BP',Mid,Flu,Therapy,Low,Private,North,Critical
+'young age',Female,'High BP',Low,Hypertension,Observation,Mid,Uninsured,West,'In Treatment'
+'young age',Male,'High BP',High,Hypertension,Observation,High,Uninsured,West,Critical
+'Old Age',Female,'Low BP',High,Flu,Medication,Low,Medicare,South,Recovered
+'Old Age',Male,'Low BP',Low,Flu,Medication,Low,Private,East,'In Treatment'
+'Old Age',Male,'Low BP',Mid,Asthma,Surgery,High,Medicaid,South,Recovered
+'Old Age',Female,'Low BP',Mid,Asthma,Therapy,Mid,Medicare,East,Recovered
+'young age',Female,'High BP',Low,Diabetes,Medication,Low,Uninsured,North,'In Treatment'
+'Middle age',Female,'High BP',Low,Diabetes,Therapy,Low,Uninsured,North,'In Treatment'
+'young age',Female,'Low BP',Low,Hypertension,Medication,Low,Uninsured,East,Recovered
+'young age',Male,'High BP',Low,Flu,Observation,Low,Medicaid,South,'In Treatment'
+'young age',Female,'High BP',High,Hypertension,Medication,Low,Private,West,Recovered
+'Middle age',Female,'High BP',Low,Asthma,Observation,High,Uninsured,East,Critical
+'Middle age',Male,'High BP',High,Covid-19,Surgery,Mid,Medicare,East,Critical
+'young age',Male,'High BP',Mid,Asthma,Surgery,Mid,Medicaid,East,'In Treatment'
+'Old Age',Male,'High BP',High,Covid-19,Surgery,Low,Private,North,'In Treatment'
+'Middle age',Female,'Low BP',High,Flu,Medication,High,Medicare,East,Critical
+'young age',Male,'Low BP',High,Flu,Surgery,High,Medicare,North,Recovered
+'Old Age',Female,'Low BP',Mid,Flu,Medication,Mid,Medicaid,West,Recovered
+'young age',Female,'Low BP',Mid,Diabetes,Therapy,Low,Medicaid,West,Recovered
+'Middle age',Female,'High BP',Low,Diabetes,Observation,Mid,Medicaid,South,'In Treatment'
+'Middle age',Female,'High BP',High,Covid-19,Therapy,Low,Uninsured,North,Recovered
+'Old Age',Male,'High BP',Low,Hypertension,Medication,High,Private,West,'In Treatment'
+'young age',Male,'High BP',Mid,Hypertension,Surgery,High,Uninsured,West,'In Treatment'
+'Old Age',Male,'Low BP',Low,Covid-19,Observation,Mid,Medicaid,South,'In Treatment'
+'Middle age',Male,'High BP',High,Diabetes,Surgery,Low,Medicaid,South,Critical
+'Middle age',Male,'Low BP',High,Asthma,Therapy,Low,Medicaid,South,Recovered
+'Middle age',Female,'High BP',Mid,Covid-19,Medication,Mid,Uninsured,North,'In Treatment'
+'Old Age',Female,'High BP',High,Hypertension,Observation,Mid,Medicare,East,Recovered
+'Middle age',Female,'High BP',Low,Covid-19,Observation,Low,Medicaid,North,Critical
+'Old Age',Female,'Low BP',High,Covid-19,Medication,High,Uninsured,South,Recovered
+'Middle age',Male,'Low BP',High,Flu,Medication,High,Medicaid,East,Critical
+'Middle age',Female,'Low BP',Low,Diabetes,Observation,Mid,Uninsured,West,'In Treatment'
+'young age',Female,'High BP',Low,Flu,Therapy,Mid,Private,North,'In Treatment'
+'Old Age',Female,'Low BP',Low,Diabetes,Therapy,Low,Private,South,Critical
+'young age',Female,'High BP',Mid,Covid-19,Surgery,Low,Uninsured,South,'In Treatment'
+'young age',Female,'High BP',Mid,Diabetes,Observation,Mid,Medicaid,East,Recovered
+'Middle age',Female,'Low BP',Low,Hypertension,Medication,Low,Uninsured,North,Recovered
+'Old Age',Male,'High BP',Low,Flu,Medication,High,Private,West,Critical
+'young age',Male,'Low BP',Low,Covid-19,Medication,Low,Uninsured,West,Recovered
+'young age',Female,'Low BP',Mid,Hypertension,Medication,High,Private,East,'In Treatment'
+'Middle age',Female,'High BP',Low,Diabetes,Observation,Low,Private,East,'In Treatment'
+'Old Age',Female,'Low BP',High,Diabetes,Therapy,Low,Medicare,West,'In Treatment'
+'Old Age',Female,'Low BP',Mid,Hypertension,Surgery,Mid,Medicaid,East,Recovered
+'Middle age',Female,'Low BP',Mid,Diabetes,Therapy,High,Uninsured,East,'In Treatment'
+'Middle age',Male,'Low BP',Low,Flu,Surgery,High,Medicaid,North,Recovered
+'Middle age',Male,'High BP',High,Asthma,Medication,Low,Medicaid,East,Critical
+'young age',Female,'High BP',Mid,Diabetes,Medication,Mid,Private,South,'In Treatment'
+'Middle age',Male,'Low BP',High,Covid-19,Observation,Low,Private,South,Critical
+'Middle age',Female,'High BP',High,Diabetes,Medication,Mid,Uninsured,South,Recovered
+'young age',Female,'High BP',High,Covid-19,Observation,Mid,Uninsured,East,Recovered
+'Old Age',Male,'Low BP',Mid,Diabetes,Observation,Low,Uninsured,West,Critical
+'Middle age',Male,'Low BP',High,Diabetes,Observation,Mid,Private,South,'In Treatment'
+'Old Age',Male,'Low BP',Low,Covid-19,Medication,Mid,Medicare,North,'In Treatment'
+'Middle age',Male,'High BP',Low,Flu,Medication,High,Uninsured,East,'In Treatment'
+'Middle age',Female,'High BP',High,Asthma,Therapy,Low,Private,West,Critical
+'young age',Male,'High BP',Low,Asthma,Surgery,High,Medicare,West,Recovered
+'Middle age',Male,'High BP',Mid,Flu,Therapy,Mid,Medicaid,East,Critical
+'Middle age',Male,'Low BP',High,Diabetes,Medication,Low,Private,East,Recovered
+'Middle age',Female,'High BP',Mid,Asthma,Surgery,Mid,Uninsured,North,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Flu,Observation,Low,Uninsured,East,'In Treatment'
+'young age',Female,'High BP',Low,Flu,Surgery,High,Medicare,East,Recovered
+'Old Age',Male,'High BP',High,Asthma,Observation,Low,Medicare,West,'In Treatment'
+'young age',Male,'Low BP',Low,Covid-19,Medication,Low,Private,South,Critical
+'Middle age',Male,'High BP',High,Hypertension,Surgery,High,Medicare,South,Recovered
+'Middle age',Female,'Low BP',High,Covid-19,Observation,Low,Private,West,'In Treatment'
+'young age',Male,'Low BP',Mid,Diabetes,Therapy,High,Medicare,East,'In Treatment'
+'Middle age',Male,'High BP',Mid,Covid-19,Therapy,Mid,Medicaid,North,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Hypertension,Observation,Low,Uninsured,South,'In Treatment'
+'Middle age',Male,'Low BP',Mid,Hypertension,Therapy,High,Uninsured,East,Recovered
+'young age',Male,'Low BP',High,Flu,Therapy,Low,Medicaid,South,Recovered
+'Middle age',Male,'High BP',Mid,Diabetes,Surgery,Low,Uninsured,West,'In Treatment'
+'young age',Male,'Low BP',Low,Flu,Therapy,High,Uninsured,South,Critical
+'Old Age',Female,'Low BP',High,Covid-19,Surgery,Low,Uninsured,West,Critical
+'Middle age',Female,'Low BP',High,Covid-19,Medication,High,Uninsured,West,Critical
+'young age',Female,'Low BP',Mid,Asthma,Therapy,Low,Medicaid,West,Critical
+'Old Age',Male,'High BP',Low,Flu,Medication,Low,Private,North,Recovered
+'young age',Male,'High BP',High,Flu,Therapy,Mid,Uninsured,East,Recovered
+'young age',Female,'High BP',Low,Flu,Observation,Mid,Medicaid,West,Critical
+'Old Age',Male,'High BP',Low,Flu,Observation,Low,Uninsured,West,Recovered
+'young age',Female,'High BP',Mid,Hypertension,Medication,High,Medicaid,South,Critical
+'young age',Female,'Low BP',Low,Asthma,Medication,High,Medicaid,East,'In Treatment'
+'young age',Male,'High BP',Mid,Diabetes,Medication,Low,Private,North,'In Treatment'
+'Old Age',Female,'Low BP',Low,Diabetes,Observation,Low,Medicare,North,Critical
+'Middle age',Female,'Low BP',Low,Diabetes,Medication,Mid,Private,South,Recovered
+'young age',Female,'High BP',Mid,Hypertension,Observation,Mid,Private,North,Critical
+'young age',Female,'Low BP',High,Asthma,Medication,Mid,Uninsured,South,Recovered
+'young age',Female,'High BP',Mid,Asthma,Surgery,Low,Medicaid,East,'In Treatment'
+'young age',Female,'High BP',High,Hypertension,Surgery,Low,Medicare,South,Recovered
+'Middle age',Male,'Low BP',High,Flu,Therapy,Mid,Medicaid,South,Critical
+'Old Age',Female,'Low BP',Low,Covid-19,Surgery,High,Uninsured,West,'In Treatment'
+'Middle age',Female,'High BP',Low,Flu,Medication,Mid,Medicaid,North,'In Treatment'
+'young age',Male,'High BP',Mid,Diabetes,Surgery,Mid,Uninsured,East,Recovered
+'Middle age',Male,'Low BP',Low,Flu,Surgery,Low,Private,East,'In Treatment'
+'young age',Female,'Low BP',Mid,Hypertension,Medication,High,Private,West,'In Treatment'
+'young age',Male,'Low BP',Low,Diabetes,Surgery,Low,Uninsured,South,Recovered
+'young age',Male,'Low BP',High,Covid-19,Medication,Low,Private,East,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Diabetes,Surgery,High,Medicaid,East,Critical
+'Middle age',Male,'Low BP',Low,Flu,Medication,Low,Medicare,South,Recovered
+'Middle age',Female,'Low BP',Mid,Asthma,Observation,High,Medicare,South,Recovered
+'Middle age',Female,'High BP',Low,Asthma,Observation,High,Medicaid,East,Recovered
+'Old Age',Female,'Low BP',Low,Asthma,Therapy,High,Medicare,South,Recovered
+'young age',Female,'Low BP',Low,Diabetes,Surgery,Low,Medicaid,North,Critical
+'Middle age',Male,'Low BP',High,Asthma,Therapy,Mid,Uninsured,East,Recovered
+'Middle age',Female,'High BP',Low,Hypertension,Medication,High,Medicare,South,Critical
+'Middle age',Male,'High BP',Mid,Covid-19,Observation,Low,Uninsured,East,Recovered
+'young age',Male,'High BP',Low,Asthma,Medication,Mid,Uninsured,East,Recovered
+'Old Age',Female,'High BP',Low,Hypertension,Therapy,High,Medicaid,West,'In Treatment'
+'Middle age',Female,'Low BP',High,Hypertension,Medication,Mid,Medicare,North,'In Treatment'
+'Old Age',Male,'Low BP',High,Diabetes,Medication,Mid,Private,North,Critical
+'Middle age',Female,'High BP',High,Diabetes,Medication,Mid,Private,West,'In Treatment'
+'Old Age',Female,'High BP',High,Covid-19,Medication,Low,Private,West,Recovered
+'young age',Female,'High BP',Low,Covid-19,Observation,Mid,Private,East,Critical
+'Old Age',Male,'Low BP',Low,Flu,Medication,High,Medicaid,North,'In Treatment'
+'young age',Male,'Low BP',Low,Covid-19,Medication,Low,Uninsured,West,Recovered
+'Middle age',Male,'Low BP',Low,Diabetes,Observation,Mid,Medicare,South,'In Treatment'
+'Middle age',Male,'High BP',Mid,Hypertension,Medication,Low,Medicaid,East,'In Treatment'
+'Old Age',Female,'High BP',Mid,Flu,Medication,Low,Private,North,'In Treatment'
+'Old Age',Female,'Low BP',Mid,Covid-19,Therapy,Low,Medicare,East,'In Treatment'
+'young age',Male,'High BP',Low,Hypertension,Observation,Mid,Medicaid,East,Recovered
+'Middle age',Male,'High BP',Low,Diabetes,Surgery,Low,Uninsured,South,'In Treatment'
+'young age',Male,'Low BP',Mid,Asthma,Medication,Mid,Private,South,Critical
+'young age',Male,'High BP',High,Flu,Therapy,High,Medicare,West,Critical
+'Middle age',Male,'Low BP',Mid,Hypertension,Observation,High,Medicare,South,'In Treatment'
+'Old Age',Female,'High BP',High,Diabetes,Medication,Mid,Private,North,Critical
+'Old Age',Male,'Low BP',Mid,Diabetes,Surgery,High,Uninsured,West,'In Treatment'
+'young age',Male,'High BP',High,Flu,Medication,Mid,Private,North,Recovered
+'young age',Female,'High BP',Mid,Flu,Therapy,Low,Uninsured,North,Recovered
+'Middle age',Female,'Low BP',High,Covid-19,Observation,Low,Medicare,West,Critical
+'young age',Female,'Low BP',Low,Covid-19,Therapy,Low,Private,South,Critical
+'young age',Male,'Low BP',High,Flu,Observation,Mid,Uninsured,East,'In Treatment'
+'Middle age',Female,'Low BP',High,Flu,Surgery,Low,Uninsured,South,'In Treatment'
+'young age',Male,'Low BP',Low,Hypertension,Medication,Low,Medicaid,North,'In Treatment'
+'Old Age',Male,'Low BP',Mid,Covid-19,Therapy,Low,Uninsured,North,Recovered
+'young age',Female,'Low BP',High,Diabetes,Surgery,Mid,Private,West,'In Treatment'
+'Old Age',Male,'Low BP',High,Covid-19,Surgery,High,Private,North,Recovered
+'Old Age',Male,'High BP',High,Covid-19,Medication,Mid,Uninsured,West,Critical
+'young age',Female,'Low BP',High,Flu,Therapy,Mid,Private,West,Recovered
+'Middle age',Female,'High BP',Mid,Flu,Medication,Mid,Medicare,South,Critical
+'Middle age',Female,'High BP',Low,Covid-19,Medication,High,Medicare,North,Recovered
+'Middle age',Female,'Low BP',Low,Asthma,Observation,High,Private,South,Recovered
+'Old Age',Female,'Low BP',Mid,Asthma,Observation,Low,Uninsured,East,'In Treatment'
+'young age',Female,'Low BP',High,Covid-19,Medication,High,Medicare,South,Critical
+'Middle age',Female,'Low BP',Low,Asthma,Observation,High,Uninsured,North,Recovered
+'Old Age',Female,'Low BP',Mid,Covid-19,Therapy,Mid,Private,East,Recovered
+'Middle age',Female,'Low BP',Low,Flu,Observation,High,Medicaid,North,Critical
+'Old Age',Female,'High BP',High,Flu,Surgery,Mid,Medicare,East,Recovered
+'young age',Male,'Low BP',Low,Flu,Medication,High,Private,North,Critical
+'young age',Male,'High BP',High,Diabetes,Medication,High,Medicare,South,Critical
+'Middle age',Male,'Low BP',Mid,Flu,Therapy,High,Uninsured,North,Critical
+'young age',Female,'High BP',High,Flu,Medication,High,Medicaid,West,Recovered
+'Old Age',Male,'Low BP',Low,Covid-19,Observation,Low,Medicaid,West,Recovered
+'Old Age',Male,'High BP',Mid,Asthma,Surgery,High,Private,South,'In Treatment'
+'Middle age',Male,'High BP',Low,Asthma,Medication,Mid,Medicare,South,Critical
+'Old Age',Male,'Low BP',High,Flu,Observation,Mid,Medicaid,East,Recovered
+'young age',Male,'High BP',Mid,Flu,Surgery,Mid,Medicare,South,Recovered
+'Old Age',Female,'Low BP',High,Flu,Medication,Low,Uninsured,West,Critical
+'Old Age',Female,'High BP',Low,Covid-19,Medication,High,Uninsured,South,Critical
+'Old Age',Female,'High BP',High,Covid-19,Medication,Low,Private,West,Critical
+'Old Age',Male,'Low BP',Mid,Covid-19,Surgery,High,Medicaid,South,'In Treatment'
+'Middle age',Male,'High BP',High,Asthma,Medication,Mid,Medicaid,West,'In Treatment'
+'Old Age',Female,'High BP',Low,Diabetes,Medication,Low,Medicare,East,'In Treatment'
+'Middle age',Female,'Low BP',Low,Asthma,Observation,High,Uninsured,North,Critical
+'Old Age',Female,'High BP',Low,Covid-19,Observation,High,Medicaid,North,Recovered
+'young age',Male,'High BP',Low,Hypertension,Observation,High,Private,West,Critical
+'Middle age',Female,'Low BP',Low,Diabetes,Observation,High,Private,South,Recovered
+'young age',Female,'High BP',High,Flu,Medication,Mid,Medicaid,South,'In Treatment'
+'Old Age',Female,'High BP',Low,Asthma,Surgery,Low,Private,North,'In Treatment'
+'Old Age',Female,'High BP',Mid,Diabetes,Medication,Mid,Medicaid,West,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Hypertension,Therapy,High,Medicaid,South,Recovered
+'Middle age',Male,'Low BP',Low,Diabetes,Surgery,High,Medicaid,North,Recovered
+'Middle age',Male,'High BP',High,Asthma,Therapy,Low,Medicaid,West,Critical
+'Old Age',Female,'High BP',Mid,Covid-19,Medication,Mid,Medicare,East,Critical
+'Middle age',Male,'High BP',Mid,Flu,Surgery,Mid,Medicaid,South,Critical
+'Middle age',Female,'High BP',Low,Covid-19,Surgery,Low,Private,South,'In Treatment'
+'young age',Female,'High BP',Low,Covid-19,Observation,Low,Uninsured,West,Critical
+'Middle age',Male,'Low BP',High,Asthma,Medication,Low,Medicare,North,'In Treatment'
+'young age',Male,'High BP',Low,Covid-19,Therapy,High,Uninsured,West,Recovered
+'Old Age',Male,'Low BP',High,Covid-19,Surgery,Mid,Uninsured,North,'In Treatment'
+'young age',Male,'Low BP',Mid,Asthma,Surgery,High,Uninsured,West,'In Treatment'
+'Old Age',Female,'High BP',Low,Asthma,Observation,Mid,Uninsured,East,'In Treatment'
+'Old Age',Male,'Low BP',High,Hypertension,Surgery,Low,Uninsured,South,Recovered
+'Middle age',Female,'Low BP',High,Covid-19,Observation,High,Private,North,Recovered
+'Old Age',Female,'Low BP',High,Diabetes,Surgery,Mid,Medicaid,East,Critical
+'Middle age',Female,'High BP',Mid,Flu,Surgery,High,Private,West,Critical
+'Old Age',Female,'Low BP',Mid,Flu,Medication,High,Medicare,North,Critical
+'Middle age',Female,'High BP',Mid,Asthma,Surgery,High,Private,North,Recovered
+'Middle age',Male,'Low BP',High,Asthma,Observation,Low,Medicare,East,Recovered
+'young age',Female,'High BP',High,Hypertension,Observation,Mid,Medicaid,West,Recovered
+'Old Age',Male,'High BP',Mid,Covid-19,Observation,High,Uninsured,East,Recovered
+'young age',Female,'Low BP',Mid,Asthma,Therapy,High,Medicaid,West,Recovered
+'young age',Male,'High BP',High,Asthma,Surgery,High,Private,East,'In Treatment'
+'Middle age',Male,'Low BP',Low,Flu,Medication,Low,Private,East,Critical
+'Middle age',Female,'Low BP',Low,Covid-19,Medication,Low,Medicaid,East,'In Treatment'
+'Old Age',Female,'High BP',Low,Hypertension,Therapy,High,Medicaid,East,Critical
+'Middle age',Male,'Low BP',Mid,Asthma,Surgery,Mid,Private,West,'In Treatment'
+'young age',Female,'Low BP',High,Asthma,Observation,High,Medicaid,South,Recovered
+'young age',Female,'High BP',Mid,Asthma,Therapy,Low,Medicare,East,Critical
+'young age',Male,'High BP',Low,Flu,Therapy,Mid,Medicare,West,'In Treatment'
+'Middle age',Male,'Low BP',Mid,Asthma,Observation,Mid,Private,South,Critical
+'young age',Female,'High BP',Low,Asthma,Therapy,High,Private,North,Recovered
+'young age',Female,'Low BP',High,Flu,Therapy,Mid,Medicaid,North,Recovered
+'Middle age',Female,'Low BP',High,Asthma,Observation,Low,Medicaid,East,Critical
+'Middle age',Female,'High BP',Mid,Covid-19,Surgery,Low,Uninsured,North,Critical
+'young age',Male,'Low BP',High,Covid-19,Medication,Mid,Medicare,East,Recovered
+'Old Age',Male,'High BP',Low,Flu,Medication,Mid,Private,East,Recovered
+'young age',Female,'High BP',Mid,Covid-19,Observation,High,Private,South,Recovered
+'Middle age',Male,'Low BP',Mid,Hypertension,Observation,High,Private,North,'In Treatment'
+'Old Age',Male,'Low BP',Mid,Asthma,Surgery,Low,Private,East,Critical
+'Middle age',Male,'High BP',Low,Hypertension,Therapy,Low,Uninsured,North,Recovered
+'Middle age',Male,'High BP',Low,Covid-19,Surgery,Low,Medicare,South,Critical
+'young age',Male,'Low BP',Low,Flu,Therapy,High,Uninsured,North,'In Treatment'
+'young age',Male,'Low BP',Low,Flu,Therapy,Low,Medicare,South,'In Treatment'
+'Old Age',Male,'High BP',Low,Hypertension,Surgery,High,Private,South,Recovered
+'young age',Female,'High BP',High,Covid-19,Observation,High,Medicare,South,Critical
+'young age',Female,'High BP',High,Asthma,Observation,High,Private,East,'In Treatment'
+'Old Age',Male,'Low BP',Low,Covid-19,Surgery,High,Uninsured,West,Critical
+'young age',Male,'High BP',Low,Covid-19,Therapy,Low,Medicare,East,Critical
+'Middle age',Male,'High BP',Low,Flu,Therapy,High,Medicaid,North,Recovered
+'young age',Male,'Low BP',Mid,Diabetes,Therapy,Mid,Medicare,East,'In Treatment'
+'young age',Male,'Low BP',Low,Asthma,Therapy,Low,Private,East,'In Treatment'
+'young age',Female,'High BP',Low,Asthma,Surgery,Low,Medicaid,West,'In Treatment'
+'Middle age',Male,'High BP',High,Flu,Medication,Mid,Private,North,Critical
+'Old Age',Female,'Low BP',Low,Covid-19,Observation,Low,Medicaid,South,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Flu,Observation,Low,Medicaid,South,'In Treatment'
+'young age',Male,'Low BP',Mid,Covid-19,Medication,Low,Medicare,North,Critical
+'Old Age',Male,'Low BP',Mid,Diabetes,Therapy,Mid,Medicare,East,'In Treatment'
+'Old Age',Male,'High BP',Low,Diabetes,Medication,Low,Medicaid,West,'In Treatment'
+'Old Age',Female,'Low BP',High,Hypertension,Medication,Mid,Medicaid,West,Critical
+'Old Age',Female,'Low BP',High,Covid-19,Medication,High,Medicaid,North,'In Treatment'
+'Old Age',Female,'High BP',High,Flu,Observation,Low,Private,North,Recovered
+'Middle age',Male,'High BP',High,Flu,Observation,High,Medicare,East,Critical
+'Old Age',Male,'Low BP',Mid,Flu,Medication,Mid,Private,West,'In Treatment'
+'Middle age',Male,'High BP',Low,Hypertension,Medication,High,Medicare,North,Recovered
+'young age',Male,'Low BP',Mid,Asthma,Medication,Mid,Uninsured,East,Critical
+'young age',Male,'High BP',High,Flu,Therapy,Mid,Private,East,'In Treatment'
+'young age',Male,'Low BP',Mid,Diabetes,Therapy,Mid,Medicare,North,Critical
+'young age',Female,'High BP',High,Flu,Therapy,High,Medicaid,West,Recovered
+'Old Age',Female,'High BP',Mid,Flu,Observation,Low,Medicaid,South,Critical
+'Middle age',Male,'High BP',Low,Flu,Surgery,Low,Medicare,East,'In Treatment'
+'Old Age',Male,'Low BP',High,Asthma,Medication,Low,Medicaid,South,Recovered
+'young age',Female,'Low BP',Mid,Flu,Medication,Mid,Medicaid,East,Critical
+'Middle age',Female,'High BP',Low,Asthma,Surgery,High,Uninsured,West,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Asthma,Medication,Mid,Uninsured,South,'In Treatment'
+'Middle age',Male,'High BP',High,Hypertension,Therapy,Low,Uninsured,North,Recovered
+'young age',Female,'Low BP',Mid,Diabetes,Therapy,High,Private,East,Recovered
+'Middle age',Female,'Low BP',Low,Flu,Surgery,High,Uninsured,North,Critical
+'Old Age',Female,'Low BP',Low,Flu,Therapy,High,Uninsured,North,'In Treatment'
+'Middle age',Female,'Low BP',Low,Flu,Surgery,Mid,Uninsured,West,Recovered
+'young age',Female,'High BP',Mid,Asthma,Therapy,High,Medicare,North,'In Treatment'
+'Old Age',Male,'High BP',High,Covid-19,Medication,High,Medicaid,East,Critical
+'Middle age',Male,'Low BP',High,Diabetes,Observation,Mid,Medicare,North,Recovered
+'Old Age',Female,'High BP',Low,Flu,Therapy,Low,Uninsured,North,Critical
+'Middle age',Male,'High BP',Mid,Covid-19,Surgery,High,Private,East,Critical
+'Old Age',Male,'Low BP',High,Covid-19,Observation,High,Medicare,North,Recovered
+'young age',Female,'High BP',Mid,Covid-19,Medication,Low,Uninsured,West,Critical
+'Middle age',Male,'High BP',Mid,Diabetes,Observation,High,Private,East,'In Treatment'
+'Old Age',Male,'High BP',Low,Covid-19,Surgery,High,Private,West,Recovered
+'young age',Female,'Low BP',High,Flu,Medication,High,Private,North,'In Treatment'
+'young age',Female,'High BP',High,Flu,Medication,Mid,Medicaid,South,Critical
+'Old Age',Male,'High BP',Mid,Hypertension,Therapy,High,Private,West,Recovered
+'young age',Male,'High BP',High,Asthma,Observation,Low,Uninsured,West,'In Treatment'
+'Middle age',Male,'Low BP',Low,Covid-19,Therapy,Low,Medicare,North,'In Treatment'
+'young age',Female,'Low BP',High,Asthma,Medication,High,Medicare,South,'In Treatment'
+'Middle age',Male,'Low BP',Low,Asthma,Therapy,High,Uninsured,East,'In Treatment'
+'Old Age',Male,'Low BP',High,Asthma,Therapy,Mid,Medicaid,South,'In Treatment'
+'Old Age',Female,'High BP',High,Asthma,Surgery,Low,Medicaid,East,Critical
+'young age',Male,'Low BP',Low,Asthma,Therapy,High,Private,North,Critical
+'Old Age',Female,'Low BP',Mid,Flu,Medication,High,Uninsured,South,Critical
+'young age',Male,'High BP',Low,Diabetes,Therapy,Low,Private,North,Critical
+'Middle age',Female,'High BP',High,Covid-19,Medication,Low,Private,West,Critical
+'Old Age',Male,'High BP',High,Covid-19,Medication,High,Uninsured,South,Critical
+'Middle age',Male,'Low BP',Low,Flu,Surgery,Low,Medicaid,East,Critical
+'Middle age',Female,'High BP',Mid,Flu,Medication,Low,Medicaid,West,'In Treatment'
+'young age',Female,'Low BP',Low,Asthma,Medication,High,Medicare,East,Critical
+'young age',Female,'Low BP',High,Diabetes,Surgery,Low,Uninsured,West,'In Treatment'
+'young age',Female,'High BP',High,Covid-19,Medication,Mid,Private,East,Recovered
+'Old Age',Female,'Low BP',Mid,Hypertension,Surgery,Low,Uninsured,East,Critical
+'Middle age',Female,'High BP',High,Flu,Observation,High,Private,North,'In Treatment'
+'Old Age',Female,'Low BP',High,Hypertension,Observation,Mid,Medicare,West,Recovered
+'Old Age',Male,'Low BP',Mid,Covid-19,Observation,Low,Medicare,North,Recovered
+'Middle age',Male,'High BP',Mid,Flu,Medication,Mid,Medicare,North,'In Treatment'
+'young age',Male,'High BP',Mid,Covid-19,Therapy,High,Medicare,North,'In Treatment'
+'Old Age',Male,'Low BP',Mid,Flu,Surgery,Low,Private,North,'In Treatment'
+'Old Age',Male,'High BP',High,Covid-19,Observation,Mid,Medicaid,East,Critical
+'Middle age',Male,'High BP',High,Hypertension,Surgery,Mid,Private,North,Recovered
+'Middle age',Male,'High BP',Low,Diabetes,Observation,Mid,Medicare,North,Critical
+'young age',Female,'Low BP',High,Flu,Observation,Mid,Medicaid,North,Critical
+'Middle age',Male,'Low BP',Low,Hypertension,Medication,High,Uninsured,East,Critical
+'young age',Female,'Low BP',Low,Covid-19,Surgery,Mid,Private,West,Recovered
+'Middle age',Male,'Low BP',Mid,Hypertension,Medication,Mid,Uninsured,East,Recovered
+'Old Age',Female,'Low BP',Low,Flu,Surgery,Low,Medicare,East,Recovered
+'Old Age',Male,'Low BP',Low,Hypertension,Surgery,Low,Uninsured,East,'In Treatment'
+'Old Age',Male,'Low BP',Low,Covid-19,Therapy,Low,Medicaid,West,Critical
+'Middle age',Male,'High BP',Low,Asthma,Observation,Low,Medicaid,North,'In Treatment'
+'young age',Male,'High BP',Mid,Diabetes,Medication,Mid,Medicaid,North,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Diabetes,Therapy,High,Private,West,Critical
+'Old Age',Male,'High BP',High,Asthma,Surgery,Low,Uninsured,West,Recovered
+'young age',Female,'High BP',High,Flu,Observation,High,Uninsured,South,Critical
+'Middle age',Male,'Low BP',Mid,Hypertension,Medication,High,Uninsured,North,'In Treatment'
+'young age',Male,'High BP',Low,Hypertension,Therapy,Mid,Medicare,East,Recovered
+'young age',Male,'High BP',Mid,Asthma,Surgery,Mid,Private,East,Recovered
+'Old Age',Male,'High BP',High,Asthma,Therapy,Mid,Private,North,'In Treatment'
+'young age',Female,'Low BP',Low,Covid-19,Surgery,Mid,Uninsured,West,Recovered
+'Old Age',Female,'High BP',High,Covid-19,Surgery,High,Private,South,Recovered
+'Old Age',Female,'High BP',Low,Diabetes,Observation,High,Uninsured,East,Critical
+'Middle age',Male,'Low BP',High,Flu,Medication,Mid,Uninsured,South,Critical
+'Middle age',Male,'Low BP',Mid,Flu,Observation,Low,Uninsured,East,'In Treatment'
+'young age',Male,'Low BP',High,Asthma,Medication,Mid,Medicaid,East,'In Treatment'
+'Middle age',Male,'High BP',Low,Diabetes,Medication,Low,Medicare,North,'In Treatment'
+'young age',Female,'High BP',Mid,Diabetes,Surgery,High,Private,East,Recovered
+'Old Age',Female,'High BP',Low,Covid-19,Therapy,Mid,Medicare,South,'In Treatment'
+'young age',Female,'High BP',High,Hypertension,Medication,Low,Medicaid,South,Critical
+'Old Age',Male,'Low BP',Mid,Flu,Medication,Low,Private,North,Recovered
+'Old Age',Female,'High BP',Low,Diabetes,Medication,High,Uninsured,East,'In Treatment'
+'Middle age',Male,'Low BP',High,Covid-19,Medication,Low,Medicare,South,Recovered
+'Middle age',Female,'High BP',Low,Covid-19,Surgery,Mid,Medicaid,West,Recovered
+'young age',Female,'Low BP',Mid,Covid-19,Observation,Mid,Private,North,Recovered
+'young age',Female,'High BP',Mid,Hypertension,Therapy,Mid,Private,West,'In Treatment'
+'Middle age',Female,'Low BP',Low,Diabetes,Surgery,High,Medicare,South,Recovered
+'Old Age',Male,'Low BP',Mid,Asthma,Surgery,Low,Medicare,West,Recovered
+'Old Age',Male,'High BP',High,Asthma,Surgery,High,Private,North,Recovered
+'Middle age',Female,'Low BP',Mid,Covid-19,Medication,High,Private,West,Critical
+'Middle age',Female,'High BP',High,Covid-19,Therapy,Low,Medicaid,South,'In Treatment'
+'Old Age',Male,'Low BP',Low,Hypertension,Surgery,Mid,Uninsured,West,Critical
+'young age',Female,'Low BP',High,Covid-19,Surgery,High,Uninsured,West,Recovered
+'Middle age',Female,'Low BP',High,Diabetes,Surgery,Low,Medicaid,West,Recovered
+'young age',Female,'High BP',Low,Covid-19,Medication,Mid,Private,East,Critical
+'Old Age',Male,'Low BP',Mid,Covid-19,Medication,Mid,Medicare,South,Recovered
+'young age',Male,'Low BP',High,Diabetes,Surgery,Low,Medicare,West,Critical
+'Old Age',Female,'Low BP',Mid,Flu,Medication,Low,Private,South,Recovered
+'Old Age',Female,'High BP',Low,Asthma,Therapy,High,Medicaid,West,Recovered
+'Middle age',Male,'Low BP',Low,Covid-19,Medication,High,Private,North,Recovered
+'Old Age',Male,'Low BP',Low,Diabetes,Surgery,High,Medicare,North,Recovered
+'Middle age',Male,'Low BP',Low,Asthma,Therapy,Mid,Private,North,'In Treatment'
+'young age',Male,'High BP',High,Hypertension,Medication,Mid,Private,West,'In Treatment'
+'Middle age',Male,'High BP',High,Flu,Surgery,Mid,Medicaid,South,'In Treatment'
+'Old Age',Male,'High BP',Mid,Covid-19,Observation,Mid,Uninsured,North,Critical
+'young age',Male,'High BP',Low,Flu,Observation,High,Medicare,East,Critical
+'young age',Male,'High BP',Mid,Covid-19,Therapy,Low,Medicare,North,Critical
+'Old Age',Female,'High BP',High,Covid-19,Therapy,Low,Private,North,Critical
+'Old Age',Female,'High BP',Mid,Covid-19,Therapy,High,Medicare,East,'In Treatment'
+'young age',Male,'High BP',Low,Flu,Medication,High,Medicare,North,Critical
+'young age',Female,'High BP',High,Hypertension,Therapy,High,Uninsured,West,Critical
+'Middle age',Male,'Low BP',Mid,Diabetes,Medication,High,Medicare,West,Critical
+'Old Age',Female,'High BP',Low,Diabetes,Surgery,Low,Medicare,North,Recovered
+'young age',Male,'Low BP',Low,Hypertension,Medication,Mid,Medicaid,South,Critical
+'Old Age',Male,'High BP',High,Hypertension,Medication,Mid,Medicaid,South,Recovered
+'Old Age',Female,'Low BP',Low,Covid-19,Surgery,Low,Medicaid,North,Critical
+'Old Age',Female,'Low BP',Low,Covid-19,Observation,High,Medicaid,East,Critical
+'Middle age',Female,'High BP',Low,Diabetes,Medication,Low,Medicaid,West,Recovered
+'young age',Female,'High BP',Low,Covid-19,Medication,High,Uninsured,West,Critical
+'young age',Female,'High BP',High,Covid-19,Surgery,High,Medicare,West,Recovered
+'Middle age',Male,'Low BP',High,Hypertension,Therapy,Low,Private,North,Critical
+'Old Age',Male,'High BP',Low,Flu,Surgery,High,Uninsured,West,Critical
+'young age',Male,'High BP',Low,Asthma,Observation,High,Private,North,Recovered
+'Old Age',Female,'Low BP',Mid,Asthma,Therapy,Low,Medicaid,North,'In Treatment'
+'Old Age',Male,'High BP',High,Covid-19,Observation,Low,Medicare,South,Recovered
+'Old Age',Male,'High BP',Low,Covid-19,Medication,Mid,Medicaid,East,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Asthma,Observation,Mid,Uninsured,East,Recovered
+'Middle age',Male,'Low BP',Mid,Hypertension,Observation,Mid,Private,East,'In Treatment'
+'Old Age',Female,'Low BP',Mid,Asthma,Surgery,Mid,Medicare,West,Critical
+'Middle age',Female,'Low BP',Mid,Asthma,Therapy,Mid,Uninsured,South,'In Treatment'
+'Old Age',Male,'Low BP',Mid,Asthma,Medication,Mid,Uninsured,South,Critical
+'Middle age',Male,'High BP',Mid,Covid-19,Medication,High,Medicare,North,Recovered
+'young age',Female,'High BP',Mid,Covid-19,Medication,High,Medicare,South,'In Treatment'
+'Old Age',Female,'Low BP',High,Asthma,Therapy,Low,Uninsured,North,Critical
+'Old Age',Male,'High BP',Mid,Covid-19,Therapy,High,Private,South,Recovered
+'young age',Male,'Low BP',High,Asthma,Observation,Low,Private,North,'In Treatment'
+'young age',Male,'High BP',Low,Hypertension,Observation,High,Uninsured,West,Critical
+'Old Age',Male,'High BP',Low,Covid-19,Therapy,Low,Uninsured,South,'In Treatment'
+'Old Age',Male,'Low BP',High,Flu,Medication,Low,Medicaid,East,'In Treatment'
+'Old Age',Female,'Low BP',Mid,Covid-19,Therapy,Low,Medicaid,North,Critical
+'Middle age',Female,'Low BP',Low,Hypertension,Surgery,High,Private,South,Critical
+'Middle age',Male,'Low BP',High,Hypertension,Therapy,Low,Medicaid,South,Recovered
+'Middle age',Male,'High BP',High,Covid-19,Therapy,Mid,Private,North,Critical
+'Middle age',Male,'High BP',Mid,Diabetes,Medication,Mid,Medicare,South,Critical
+'young age',Male,'Low BP',Low,Asthma,Observation,Mid,Medicaid,East,'In Treatment'
+'young age',Male,'High BP',Mid,Asthma,Surgery,Mid,Private,North,Critical
+'young age',Female,'High BP',Low,Hypertension,Surgery,Mid,Private,North,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Covid-19,Surgery,Low,Uninsured,North,'In Treatment'
+'Old Age',Male,'High BP',Mid,Diabetes,Therapy,High,Private,North,Critical
+'Middle age',Male,'High BP',Mid,Flu,Medication,Mid,Medicaid,North,Critical
+'Middle age',Male,'High BP',Mid,Asthma,Therapy,High,Uninsured,East,Critical
+'young age',Female,'High BP',High,Diabetes,Observation,Mid,Uninsured,North,Critical
+'Middle age',Female,'High BP',High,Asthma,Medication,Mid,Medicaid,East,Recovered
+'Old Age',Female,'Low BP',Low,Covid-19,Surgery,Mid,Medicare,East,'In Treatment'
+'Middle age',Male,'Low BP',High,Asthma,Therapy,Low,Medicaid,East,Recovered
+'young age',Male,'High BP',Low,Flu,Medication,High,Medicaid,North,Recovered
+'Middle age',Female,'Low BP',High,Covid-19,Therapy,Mid,Uninsured,East,'In Treatment'
+'Middle age',Female,'High BP',High,Hypertension,Medication,Low,Medicaid,North,Recovered
+'young age',Male,'Low BP',Mid,Diabetes,Surgery,Low,Medicare,East,Critical
+'Old Age',Female,'Low BP',Low,Asthma,Observation,Mid,Medicare,North,Critical
+'Old Age',Female,'High BP',Low,Covid-19,Observation,High,Medicare,South,Critical
+'Old Age',Female,'High BP',High,Covid-19,Therapy,Low,Uninsured,South,Critical
+'Old Age',Male,'Low BP',Low,Asthma,Surgery,Mid,Medicaid,East,'In Treatment'
+'young age',Male,'High BP',High,Hypertension,Therapy,Low,Private,West,Critical
+'Middle age',Female,'Low BP',Low,Asthma,Therapy,High,Medicaid,West,'In Treatment'
+'Old Age',Female,'High BP',High,Hypertension,Medication,Mid,Medicare,South,'In Treatment'
+'young age',Male,'Low BP',Low,Asthma,Medication,Mid,Medicaid,East,'In Treatment'
+'Old Age',Male,'High BP',Low,Covid-19,Medication,Mid,Uninsured,East,'In Treatment'
+'Old Age',Female,'High BP',High,Flu,Surgery,Low,Medicaid,East,Recovered
+'Middle age',Female,'High BP',Low,Flu,Surgery,Low,Uninsured,West,Recovered
+'Old Age',Female,'High BP',Low,Covid-19,Therapy,Mid,Private,South,Critical
+'young age',Male,'Low BP',High,Flu,Medication,Low,Private,East,'In Treatment'
+'young age',Female,'Low BP',Low,Hypertension,Surgery,High,Uninsured,South,Critical
+'Old Age',Female,'Low BP',High,Covid-19,Therapy,High,Medicaid,South,Critical
+'Middle age',Female,'High BP',High,Hypertension,Surgery,Mid,Medicare,North,Critical
+'young age',Female,'High BP',Mid,Covid-19,Therapy,High,Uninsured,West,Critical
+'Middle age',Female,'Low BP',Mid,Hypertension,Observation,High,Medicaid,South,'In Treatment'
+'Middle age',Male,'High BP',Mid,Hypertension,Medication,High,Medicaid,North,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Flu,Observation,High,Medicaid,West,Recovered
+'young age',Female,'Low BP',Low,Covid-19,Therapy,Mid,Medicare,East,'In Treatment'
+'Old Age',Male,'High BP',High,Asthma,Therapy,Mid,Medicare,East,'In Treatment'
+'Old Age',Male,'Low BP',Low,Flu,Medication,Low,Medicare,North,Critical
+'Middle age',Female,'Low BP',Low,Hypertension,Medication,Low,Uninsured,East,'In Treatment'
+'young age',Female,'High BP',Mid,Hypertension,Therapy,High,Uninsured,North,Critical
+'young age',Female,'High BP',High,Asthma,Surgery,Mid,Medicare,North,'In Treatment'
+'Old Age',Male,'High BP',High,Asthma,Medication,Mid,Uninsured,East,Recovered
+'Old Age',Male,'High BP',Mid,Hypertension,Therapy,Low,Medicare,West,Critical
+'Old Age',Male,'Low BP',Low,Asthma,Medication,Mid,Uninsured,North,'In Treatment'
+'young age',Male,'Low BP',High,Diabetes,Medication,High,Medicaid,West,'In Treatment'
+'Middle age',Female,'High BP',Low,Flu,Observation,High,Medicare,West,Critical
+'Middle age',Male,'Low BP',High,Covid-19,Observation,Low,Uninsured,North,Recovered
+'Middle age',Female,'Low BP',Low,Asthma,Surgery,High,Medicaid,West,Recovered
+'young age',Male,'High BP',Mid,Asthma,Medication,High,Medicaid,North,'In Treatment'
+'Middle age',Female,'High BP',High,Diabetes,Therapy,High,Uninsured,East,'In Treatment'
+'Old Age',Female,'Low BP',Low,Covid-19,Therapy,High,Medicaid,East,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Diabetes,Medication,Mid,Private,East,Critical
+'young age',Male,'Low BP',Mid,Covid-19,Medication,High,Medicare,East,Critical
+'Old Age',Female,'Low BP',Low,Flu,Surgery,Low,Medicare,East,Critical
+'Middle age',Female,'High BP',Mid,Asthma,Surgery,High,Medicaid,West,'In Treatment'
+'Middle age',Female,'Low BP',Low,Flu,Surgery,High,Uninsured,West,Recovered
+'young age',Male,'High BP',Low,Covid-19,Therapy,Mid,Private,West,Critical
+'Old Age',Female,'High BP',High,Asthma,Observation,Mid,Uninsured,South,Recovered
+'Old Age',Male,'Low BP',Low,Diabetes,Surgery,Low,Medicare,South,'In Treatment'
+'young age',Female,'High BP',Low,Hypertension,Therapy,Mid,Medicaid,North,Critical
+'young age',Male,'Low BP',Mid,Diabetes,Surgery,Mid,Private,South,Critical
+'Middle age',Female,'Low BP',Mid,Hypertension,Therapy,Mid,Medicaid,East,Critical
+'Middle age',Female,'Low BP',Mid,Diabetes,Medication,High,Private,East,'In Treatment'
+'Old Age',Female,'High BP',High,Covid-19,Therapy,Low,Medicaid,East,'In Treatment'
+'young age',Female,'Low BP',Low,Flu,Medication,High,Uninsured,North,'In Treatment'
+'Old Age',Male,'High BP',High,Hypertension,Therapy,Low,Medicare,North,Recovered
+'Middle age',Female,'High BP',Low,Covid-19,Observation,High,Medicaid,North,Recovered
+'Old Age',Female,'High BP',Low,Flu,Therapy,Low,Medicaid,North,Critical
+'young age',Female,'Low BP',High,Flu,Medication,Low,Private,West,Critical
+'Old Age',Male,'Low BP',High,Asthma,Observation,High,Uninsured,North,'In Treatment'
+'Middle age',Male,'High BP',Mid,Asthma,Therapy,Low,Uninsured,North,'In Treatment'
+'Old Age',Male,'High BP',Low,Asthma,Therapy,High,Private,South,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Hypertension,Surgery,Mid,Uninsured,West,Critical
+'Middle age',Male,'Low BP',Low,Hypertension,Observation,Mid,Medicare,East,'In Treatment'
+'young age',Male,'High BP',Low,Flu,Medication,High,Medicaid,South,Recovered
+'Middle age',Male,'Low BP',High,Hypertension,Observation,Mid,Private,North,Recovered
+'Old Age',Female,'High BP',High,Flu,Medication,Low,Uninsured,East,Critical
+'young age',Male,'High BP',Mid,Covid-19,Surgery,Low,Medicare,East,Critical
+'young age',Female,'Low BP',Mid,Diabetes,Surgery,Low,Medicare,East,Recovered
+'Middle age',Male,'High BP',Mid,Flu,Medication,Mid,Uninsured,South,'In Treatment'
+'Old Age',Male,'High BP',Mid,Flu,Medication,Mid,Uninsured,West,Critical
+'young age',Female,'High BP',High,Covid-19,Medication,Mid,Private,West,Critical
+'Middle age',Female,'High BP',High,Asthma,Surgery,Mid,Uninsured,East,Critical
+'young age',Female,'High BP',Mid,Asthma,Observation,Mid,Private,North,Recovered
+'Old Age',Male,'Low BP',Mid,Asthma,Surgery,High,Medicaid,West,Critical
+'Middle age',Female,'Low BP',Mid,Flu,Therapy,Mid,Medicare,West,Recovered
+'Middle age',Female,'Low BP',High,Flu,Surgery,Mid,Private,North,Recovered
+'young age',Male,'Low BP',Low,Hypertension,Therapy,Mid,Medicare,South,'In Treatment'
+'Middle age',Female,'High BP',Low,Hypertension,Therapy,High,Medicaid,South,'In Treatment'
+'Middle age',Female,'High BP',Mid,Diabetes,Surgery,Mid,Uninsured,North,'In Treatment'
+'young age',Male,'Low BP',Low,Diabetes,Surgery,Low,Private,South,Critical
+'young age',Male,'High BP',Low,Hypertension,Surgery,High,Uninsured,East,Recovered
+'Middle age',Male,'High BP',Mid,Flu,Observation,High,Medicare,West,Critical
+'Middle age',Female,'High BP',Low,Covid-19,Surgery,Low,Private,South,Recovered
+'Old Age',Male,'High BP',Mid,Hypertension,Medication,Mid,Medicaid,East,Critical
+'Old Age',Female,'Low BP',Mid,Flu,Surgery,Low,Medicaid,East,Recovered
+'Middle age',Male,'High BP',Mid,Hypertension,Therapy,Mid,Uninsured,East,'In Treatment'
+'young age',Male,'High BP',Low,Asthma,Observation,Low,Medicaid,East,'In Treatment'
+'Old Age',Male,'Low BP',Mid,Hypertension,Observation,Low,Medicaid,East,Critical
+'Old Age',Female,'High BP',Mid,Asthma,Therapy,Low,Uninsured,North,Recovered
+'Middle age',Female,'High BP',Mid,Flu,Observation,Mid,Uninsured,West,'In Treatment'
+'Middle age',Female,'Low BP',High,Asthma,Observation,High,Private,West,Recovered
+'young age',Female,'Low BP',High,Hypertension,Medication,High,Private,North,Critical
+'Middle age',Female,'High BP',Low,Asthma,Medication,High,Uninsured,North,'In Treatment'
+'Old Age',Male,'Low BP',Mid,Covid-19,Observation,Mid,Medicare,East,Critical
+'young age',Male,'Low BP',High,Asthma,Surgery,High,Medicare,South,Critical
+'Old Age',Male,'High BP',Mid,Asthma,Observation,Mid,Private,West,Recovered
+'young age',Male,'High BP',Low,Diabetes,Medication,High,Private,South,Critical
+'Middle age',Female,'High BP',Mid,Covid-19,Observation,Low,Uninsured,West,Critical
+'Middle age',Female,'High BP',High,Flu,Surgery,High,Medicare,East,Recovered
+'young age',Female,'High BP',Mid,Asthma,Surgery,Low,Uninsured,South,Recovered
+'Middle age',Male,'High BP',Low,Covid-19,Medication,Mid,Private,West,Critical
+'Middle age',Male,'Low BP',Mid,Flu,Observation,Low,Medicaid,West,'In Treatment'
+'Middle age',Female,'High BP',Low,Covid-19,Medication,Low,Medicaid,East,'In Treatment'
+'young age',Male,'High BP',Mid,Diabetes,Therapy,Mid,Medicaid,South,Recovered
+'Old Age',Male,'Low BP',High,Flu,Medication,Low,Uninsured,East,Critical
+'Middle age',Female,'Low BP',High,Flu,Medication,Low,Medicare,South,'In Treatment'
+'young age',Male,'Low BP',Mid,Asthma,Medication,Low,Private,South,Recovered
+'Middle age',Female,'Low BP',Mid,Hypertension,Observation,High,Medicare,West,Recovered
+'Old Age',Male,'Low BP',Mid,Flu,Therapy,Mid,Medicare,North,Recovered
+'Old Age',Female,'Low BP',Low,Flu,Observation,High,Private,South,Critical
+'young age',Male,'Low BP',Mid,Diabetes,Surgery,Low,Medicare,South,Recovered
+'young age',Female,'High BP',High,Diabetes,Therapy,Mid,Medicaid,East,'In Treatment'
+'Old Age',Female,'High BP',Mid,Diabetes,Medication,Mid,Private,South,Critical
+'Middle age',Male,'High BP',High,Asthma,Medication,Mid,Medicaid,South,'In Treatment'
+'Old Age',Male,'High BP',Low,Flu,Medication,Mid,Uninsured,South,'In Treatment'
+'Middle age',Female,'High BP',High,Diabetes,Observation,Mid,Medicaid,South,'In Treatment'
+'Middle age',Female,'High BP',Low,Diabetes,Surgery,Mid,Uninsured,South,Critical
+'Old Age',Female,'Low BP',Low,Covid-19,Therapy,High,Uninsured,North,'In Treatment'
+'young age',Female,'Low BP',High,Covid-19,Therapy,Low,Private,West,Recovered
+'Middle age',Female,'High BP',Mid,Diabetes,Observation,High,Medicaid,South,Recovered
+'Old Age',Male,'High BP',Low,Asthma,Surgery,Mid,Medicaid,East,'In Treatment'
+'young age',Male,'High BP',Mid,Hypertension,Therapy,High,Medicaid,East,Recovered
+'young age',Male,'High BP',Mid,Covid-19,Observation,Low,Private,South,Critical
+'Middle age',Male,'Low BP',Mid,Covid-19,Surgery,Low,Uninsured,South,Critical
+'young age',Male,'Low BP',Mid,Flu,Surgery,Mid,Uninsured,South,Recovered
+'Old Age',Female,'Low BP',Mid,Flu,Therapy,High,Uninsured,North,Recovered
+'young age',Male,'High BP',Mid,Diabetes,Therapy,Low,Private,West,Critical
+'young age',Male,'Low BP',High,Flu,Surgery,Low,Private,East,'In Treatment'
+'Old Age',Female,'High BP',Low,Flu,Therapy,Low,Medicare,North,Critical
+'Middle age',Female,'High BP',High,Hypertension,Observation,Mid,Medicaid,North,'In Treatment'
+'Middle age',Male,'Low BP',Mid,Asthma,Surgery,Mid,Uninsured,South,Recovered
+'Middle age',Male,'Low BP',Mid,Diabetes,Therapy,Low,Medicare,West,Recovered
+'Middle age',Female,'High BP',Mid,Hypertension,Therapy,Low,Medicare,South,'In Treatment'
+'Old Age',Male,'Low BP',Low,Diabetes,Observation,Low,Medicaid,East,'In Treatment'
+'young age',Female,'High BP',Mid,Asthma,Therapy,Low,Private,West,Critical
+'young age',Male,'Low BP',High,Diabetes,Therapy,Mid,Medicare,South,'In Treatment'
+'Middle age',Male,'High BP',Mid,Flu,Therapy,High,Private,East,Recovered
+'Old Age',Male,'Low BP',Mid,Asthma,Medication,Mid,Private,North,Recovered
+'Old Age',Male,'Low BP',Mid,Hypertension,Observation,High,Medicaid,East,Recovered
+'Old Age',Female,'High BP',High,Hypertension,Observation,Low,Medicare,East,'In Treatment'
+'Old Age',Female,'High BP',Mid,Covid-19,Medication,Low,Uninsured,East,'In Treatment'
+'young age',Male,'Low BP',High,Hypertension,Observation,Low,Medicare,West,Recovered
+'Old Age',Male,'Low BP',Mid,Covid-19,Therapy,High,Uninsured,North,'In Treatment'
+'young age',Male,'High BP',High,Flu,Therapy,Mid,Uninsured,West,Critical
+'Old Age',Male,'High BP',Low,Hypertension,Therapy,Mid,Private,North,Critical
+'Old Age',Female,'Low BP',Mid,Asthma,Observation,Mid,Uninsured,South,'In Treatment'
+'young age',Female,'High BP',Mid,Covid-19,Observation,High,Medicaid,South,'In Treatment'
+'Middle age',Male,'Low BP',Low,Hypertension,Surgery,High,Medicare,East,Recovered
+'young age',Female,'Low BP',High,Flu,Medication,High,Private,East,'In Treatment'
+'young age',Female,'Low BP',High,Asthma,Observation,High,Private,West,Recovered
+'young age',Male,'Low BP',High,Asthma,Surgery,High,Uninsured,North,Critical
+'young age',Male,'High BP',High,Flu,Medication,High,Private,North,'In Treatment'
+'Middle age',Male,'Low BP',Mid,Hypertension,Medication,Low,Medicaid,North,Critical
+'Old Age',Female,'Low BP',High,Diabetes,Therapy,Mid,Medicaid,East,'In Treatment'
+'young age',Female,'Low BP',High,Hypertension,Therapy,High,Private,East,'In Treatment'
+'Middle age',Female,'Low BP',Low,Covid-19,Surgery,High,Private,North,Recovered
+'young age',Female,'High BP',High,Covid-19,Surgery,Low,Medicaid,East,Recovered
+'Old Age',Male,'High BP',High,Hypertension,Therapy,High,Uninsured,North,'In Treatment'
+'young age',Male,'Low BP',High,Covid-19,Therapy,High,Private,West,'In Treatment'
+'Middle age',Male,'High BP',High,Diabetes,Medication,Low,Uninsured,South,Recovered
+'Old Age',Female,'High BP',Low,Diabetes,Medication,Low,Private,North,Critical
+'Old Age',Male,'High BP',Low,Asthma,Observation,Mid,Medicaid,East,'In Treatment'
+'Middle age',Male,'High BP',High,Covid-19,Therapy,High,Private,West,Recovered
+'young age',Female,'Low BP',Low,Hypertension,Medication,High,Private,East,'In Treatment'
+'Old Age',Male,'Low BP',Mid,Asthma,Surgery,Low,Private,East,Recovered
+'young age',Female,'High BP',Low,Diabetes,Medication,Mid,Medicaid,East,Critical
+'Middle age',Female,'Low BP',Mid,Asthma,Therapy,Low,Medicaid,North,'In Treatment'
+'young age',Male,'High BP',Low,Flu,Medication,Mid,Medicaid,West,'In Treatment'
+'Middle age',Male,'Low BP',Mid,Covid-19,Therapy,Mid,Medicare,North,Critical
+'Middle age',Female,'Low BP',Mid,Hypertension,Medication,High,Medicare,South,'In Treatment'
+'Old Age',Male,'High BP',Mid,Diabetes,Observation,Mid,Medicare,North,'In Treatment'
+'young age',Male,'High BP',High,Asthma,Observation,Low,Medicare,South,'In Treatment'
+'Old Age',Female,'High BP',Mid,Hypertension,Surgery,High,Medicaid,West,Recovered
+'Middle age',Male,'High BP',Low,Covid-19,Surgery,High,Private,West,Recovered
+'Middle age',Female,'Low BP',Low,Hypertension,Therapy,High,Medicaid,North,'In Treatment'
+'young age',Female,'Low BP',Mid,Covid-19,Therapy,High,Medicare,North,Critical
+'young age',Female,'Low BP',Mid,Covid-19,Therapy,Low,Uninsured,East,Critical
+'Old Age',Female,'Low BP',High,Covid-19,Medication,Mid,Uninsured,South,'In Treatment'
+'Old Age',Male,'Low BP',Mid,Asthma,Medication,High,Medicaid,East,Recovered
+'Old Age',Male,'Low BP',Low,Covid-19,Medication,High,Private,East,Recovered
+'Middle age',Male,'High BP',High,Hypertension,Surgery,Mid,Medicare,West,'In Treatment'
+'young age',Female,'Low BP',Mid,Flu,Therapy,Low,Private,North,Recovered
+'young age',Male,'High BP',Mid,Hypertension,Medication,Low,Private,West,Recovered
+'Old Age',Female,'High BP',Mid,Asthma,Surgery,Low,Private,North,Critical
+'Middle age',Female,'High BP',High,Covid-19,Observation,Mid,Medicare,West,'In Treatment'
+'young age',Male,'Low BP',Low,Flu,Therapy,High,Medicaid,West,Recovered
+'Middle age',Male,'High BP',Mid,Asthma,Observation,Low,Medicare,West,Recovered
+'Old Age',Female,'Low BP',High,Diabetes,Surgery,High,Medicare,South,Recovered
+'young age',Female,'High BP',Low,Diabetes,Therapy,Mid,Medicaid,West,'In Treatment'
+'young age',Female,'Low BP',Mid,Diabetes,Medication,Mid,Medicaid,South,'In Treatment'
+'young age',Female,'High BP',Low,Flu,Surgery,High,Medicaid,West,Recovered
+'young age',Male,'Low BP',High,Hypertension,Observation,High,Uninsured,North,Critical
+'Old Age',Male,'High BP',Mid,Flu,Observation,High,Uninsured,South,Critical
+'Old Age',Male,'Low BP',Low,Flu,Observation,Mid,Medicaid,North,'In Treatment'
+'Middle age',Female,'High BP',High,Flu,Surgery,High,Private,North,Critical
+'Middle age',Female,'High BP',Mid,Diabetes,Surgery,Low,Uninsured,North,Recovered
+'Middle age',Male,'High BP',Low,Hypertension,Therapy,Low,Medicare,South,'In Treatment'
+'young age',Male,'Low BP',Low,Flu,Therapy,Low,Medicare,East,'In Treatment'
+'Middle age',Male,'Low BP',Low,Hypertension,Observation,Low,Uninsured,South,Critical
+'young age',Female,'High BP',High,Covid-19,Surgery,Mid,Medicare,East,'In Treatment'
+'Old Age',Female,'High BP',Mid,Flu,Therapy,High,Medicaid,South,Critical
+'young age',Female,'High BP',Mid,Flu,Surgery,High,Medicare,West,Critical
+'Middle age',Male,'Low BP',Low,Flu,Medication,Low,Uninsured,East,Recovered
+'young age',Male,'Low BP',High,Covid-19,Surgery,Mid,Private,West,Critical
+'young age',Male,'Low BP',Low,Covid-19,Observation,High,Medicare,East,Critical
+'Middle age',Male,'High BP',High,Diabetes,Surgery,Mid,Medicare,South,'In Treatment'
+'Old Age',Male,'Low BP',Mid,Asthma,Observation,Low,Private,South,Recovered
+'young age',Male,'Low BP',Mid,Hypertension,Therapy,Mid,Uninsured,East,Recovered
+'young age',Female,'High BP',High,Asthma,Therapy,Mid,Private,West,Critical
+'young age',Male,'Low BP',Low,Flu,Therapy,High,Medicare,North,'In Treatment'
+'young age',Male,'High BP',Mid,Flu,Medication,High,Uninsured,East,'In Treatment'
+'young age',Female,'Low BP',Mid,Diabetes,Observation,Mid,Medicaid,East,'In Treatment'
+'young age',Female,'High BP',Low,Asthma,Medication,Mid,Uninsured,West,Recovered
+'Middle age',Female,'Low BP',Low,Flu,Medication,High,Uninsured,North,Recovered
+'Old Age',Female,'Low BP',Mid,Asthma,Therapy,Mid,Medicaid,East,Critical
+'Middle age',Female,'High BP',High,Diabetes,Observation,High,Uninsured,North,Critical
+'Old Age',Female,'Low BP',Mid,Asthma,Surgery,High,Medicare,North,'In Treatment'
+'Middle age',Male,'High BP',Mid,Hypertension,Surgery,Mid,Medicare,South,Critical
+'Old Age',Male,'Low BP',Mid,Diabetes,Observation,Mid,Medicare,West,'In Treatment'
+'Old Age',Male,'High BP',High,Asthma,Surgery,Low,Medicare,East,Recovered
+'young age',Male,'High BP',Mid,Flu,Therapy,Low,Medicaid,East,Critical
+'Old Age',Female,'High BP',Low,Covid-19,Therapy,Low,Medicare,North,'In Treatment'
+'young age',Female,'High BP',High,Covid-19,Medication,Low,Uninsured,East,Recovered
+'Old Age',Male,'High BP',Mid,Diabetes,Therapy,Mid,Private,North,'In Treatment'
+'Old Age',Female,'High BP',High,Covid-19,Surgery,Mid,Medicaid,East,Critical
+'Middle age',Female,'Low BP',High,Hypertension,Medication,High,Medicaid,West,'In Treatment'
+'Old Age',Male,'High BP',Mid,Diabetes,Observation,Mid,Private,East,Recovered
+'Old Age',Male,'Low BP',High,Flu,Observation,Low,Medicare,North,Critical
+'young age',Male,'High BP',Low,Flu,Medication,High,Medicare,North,Recovered
+'Old Age',Male,'Low BP',Mid,Diabetes,Therapy,Mid,Uninsured,East,Critical
+'Old Age',Male,'High BP',Mid,Covid-19,Medication,High,Medicare,East,'In Treatment'
+'Old Age',Male,'Low BP',High,Covid-19,Medication,Mid,Medicare,North,Recovered
+'Old Age',Male,'High BP',Mid,Flu,Therapy,Mid,Uninsured,South,Recovered
+'young age',Male,'Low BP',High,Hypertension,Observation,Low,Medicare,South,'In Treatment'
+'Old Age',Female,'High BP',Low,Covid-19,Medication,Low,Private,East,Recovered
+'young age',Male,'High BP',High,Hypertension,Observation,High,Medicare,West,Recovered
+'Middle age',Female,'Low BP',Low,Covid-19,Surgery,Low,Private,East,Recovered
+'Middle age',Male,'Low BP',High,Diabetes,Therapy,High,Private,West,Recovered
+'young age',Female,'High BP',Low,Asthma,Surgery,High,Private,East,'In Treatment'
+'young age',Male,'High BP',Mid,Flu,Observation,Low,Medicare,North,Recovered
+'young age',Male,'Low BP',Low,Diabetes,Surgery,High,Medicare,East,Recovered
+'young age',Male,'High BP',High,Covid-19,Surgery,Low,Medicaid,West,Recovered
+'Middle age',Male,'Low BP',Mid,Flu,Surgery,Low,Uninsured,West,Critical
+'Middle age',Male,'High BP',Mid,Asthma,Medication,Low,Uninsured,East,Critical
+'young age',Female,'Low BP',Low,Asthma,Medication,Mid,Medicaid,East,'In Treatment'
+'Middle age',Male,'Low BP',High,Covid-19,Therapy,Low,Private,South,'In Treatment'
+'Middle age',Male,'Low BP',High,Flu,Observation,High,Uninsured,East,'In Treatment'
+'Middle age',Male,'High BP',High,Covid-19,Observation,Low,Medicaid,East,Recovered
+'Middle age',Female,'Low BP',Mid,Asthma,Therapy,High,Private,North,Critical
+'young age',Female,'Low BP',Mid,Diabetes,Observation,Low,Medicaid,West,Critical
+'Middle age',Female,'Low BP',Mid,Diabetes,Observation,Low,Medicare,South,'In Treatment'
+'Old Age',Female,'High BP',High,Hypertension,Surgery,Low,Medicare,North,Critical
+'young age',Female,'Low BP',Mid,Asthma,Surgery,Mid,Private,East,'In Treatment'
+'Middle age',Female,'High BP',Low,Asthma,Observation,Mid,Private,West,Recovered
+'Middle age',Male,'Low BP',High,Covid-19,Therapy,Low,Medicare,East,Critical
+'Old Age',Male,'Low BP',Mid,Hypertension,Therapy,Mid,Uninsured,East,Recovered
+'young age',Male,'Low BP',Low,Hypertension,Observation,Low,Uninsured,East,Recovered
+'Middle age',Female,'High BP',Mid,Flu,Therapy,Mid,Medicare,East,Critical
+'young age',Male,'Low BP',High,Covid-19,Therapy,Mid,Uninsured,West,'In Treatment'
+'Old Age',Male,'High BP',High,Diabetes,Surgery,Low,Medicare,North,Critical
+'Old Age',Female,'High BP',Low,Flu,Therapy,Mid,Medicaid,East,Recovered
+'Middle age',Male,'Low BP',High,Hypertension,Medication,Low,Medicaid,East,'In Treatment'
+'Middle age',Male,'Low BP',Mid,Diabetes,Surgery,High,Medicaid,South,Recovered
+'young age',Male,'High BP',Low,Asthma,Medication,Mid,Uninsured,South,'In Treatment'
+'Old Age',Female,'Low BP',High,Covid-19,Observation,Mid,Medicaid,West,Critical
+'Middle age',Female,'Low BP',Mid,Hypertension,Therapy,High,Private,East,Recovered
+'young age',Male,'High BP',Low,Asthma,Medication,Low,Private,East,'In Treatment'
+'Old Age',Male,'Low BP',Low,Hypertension,Therapy,High,Medicaid,East,'In Treatment'
+'Old Age',Female,'Low BP',High,Diabetes,Medication,Mid,Private,West,Critical
+'young age',Female,'Low BP',Low,Flu,Surgery,Mid,Medicaid,West,'In Treatment'
+'Middle age',Female,'High BP',Low,Diabetes,Observation,Low,Medicaid,East,'In Treatment'
+'young age',Female,'Low BP',High,Covid-19,Medication,Mid,Medicare,East,Recovered
+'Old Age',Male,'Low BP',Mid,Covid-19,Surgery,Low,Medicaid,West,Critical
+'Middle age',Female,'Low BP',High,Hypertension,Observation,Mid,Private,East,Critical
+'Old Age',Male,'High BP',High,Diabetes,Medication,Mid,Uninsured,North,Recovered
+'Old Age',Female,'High BP',Mid,Flu,Medication,Mid,Medicaid,North,Recovered
+'young age',Male,'High BP',High,Covid-19,Surgery,High,Medicare,West,Recovered
+'Middle age',Female,'High BP',High,Flu,Observation,Mid,Private,North,'In Treatment'
+'Old Age',Female,'Low BP',Low,Asthma,Observation,High,Medicare,South,Critical
+'young age',Female,'High BP',High,Hypertension,Surgery,High,Medicaid,East,Critical
+'Old Age',Male,'High BP',Mid,Flu,Therapy,High,Medicaid,South,Critical
+'Old Age',Male,'Low BP',High,Hypertension,Surgery,Low,Medicaid,South,'In Treatment'
+'Old Age',Male,'Low BP',Low,Asthma,Observation,High,Medicaid,South,Critical
+'Old Age',Male,'High BP',Mid,Flu,Surgery,Low,Private,North,Critical
+'young age',Female,'Low BP',Mid,Flu,Therapy,Mid,Uninsured,East,Critical
+'Old Age',Female,'Low BP',Low,Asthma,Surgery,Mid,Medicaid,East,Critical
+'young age',Female,'High BP',Low,Diabetes,Surgery,Mid,Medicare,West,Recovered
+'young age',Male,'Low BP',Mid,Flu,Medication,Mid,Private,South,'In Treatment'
+'Old Age',Female,'Low BP',Low,Flu,Therapy,High,Private,North,Critical
+'young age',Female,'High BP',Low,Covid-19,Observation,Mid,Private,South,Critical
+'Old Age',Female,'Low BP',High,Diabetes,Therapy,Mid,Medicare,South,Critical
+'Old Age',Male,'Low BP',Low,Flu,Observation,Low,Uninsured,East,Critical
+'Middle age',Male,'High BP',Low,Asthma,Observation,Low,Medicare,West,Critical
+'young age',Female,'High BP',Mid,Hypertension,Medication,Low,Medicare,North,Recovered
+'Old Age',Male,'Low BP',High,Asthma,Therapy,Mid,Medicare,East,Recovered
+'Middle age',Male,'Low BP',Mid,Diabetes,Medication,High,Medicaid,South,'In Treatment'
+'Middle age',Female,'Low BP',Low,Covid-19,Surgery,Mid,Medicaid,East,'In Treatment'
+'Old Age',Female,'Low BP',Low,Covid-19,Therapy,Mid,Medicare,South,Critical
+'young age',Male,'High BP',High,Covid-19,Surgery,High,Medicare,North,Critical
+'young age',Male,'Low BP',Mid,Asthma,Therapy,Mid,Medicaid,East,Recovered
+'Old Age',Female,'High BP',Mid,Hypertension,Observation,Low,Medicaid,East,'In Treatment'
+'Old Age',Female,'High BP',High,Hypertension,Surgery,High,Uninsured,East,Critical
+'Old Age',Female,'High BP',Low,Flu,Therapy,Mid,Medicare,East,Critical
+'young age',Female,'Low BP',High,Hypertension,Therapy,Low,Private,East,Critical
+'young age',Female,'Low BP',Mid,Hypertension,Surgery,Mid,Uninsured,North,'In Treatment'
+'Middle age',Female,'High BP',Mid,Flu,Medication,High,Private,West,Recovered
+'Middle age',Female,'Low BP',High,Asthma,Therapy,Low,Uninsured,North,Recovered
+'Old Age',Male,'Low BP',High,Asthma,Medication,Mid,Medicare,East,Critical
+'Middle age',Male,'High BP',Low,Diabetes,Medication,Low,Private,South,Critical
+'Middle age',Female,'Low BP',Mid,Asthma,Medication,Mid,Medicaid,South,Critical
+'Middle age',Male,'High BP',Mid,Covid-19,Medication,Low,Uninsured,East,Critical
+'young age',Male,'Low BP',High,Covid-19,Medication,High,Private,West,Critical
+'young age',Female,'High BP',Low,Diabetes,Observation,Mid,Uninsured,East,'In Treatment'
+'Old Age',Female,'Low BP',Mid,Hypertension,Medication,Low,Medicare,North,Recovered
+'Middle age',Female,'High BP',Low,Diabetes,Observation,Mid,Private,West,'In Treatment'
+'Old Age',Male,'High BP',High,Flu,Therapy,Mid,Private,West,'In Treatment'
+'Middle age',Female,'Low BP',Low,Diabetes,Observation,High,Private,North,Critical
+'Old Age',Female,'Low BP',Low,Diabetes,Observation,High,Uninsured,West,'In Treatment'
+'Old Age',Male,'High BP',Mid,Covid-19,Medication,Mid,Medicaid,East,Recovered
+'Middle age',Female,'Low BP',Low,Flu,Therapy,Mid,Medicaid,East,Critical
+'Old Age',Male,'High BP',Low,Flu,Therapy,Mid,Medicaid,South,Recovered
+'young age',Male,'High BP',Mid,Diabetes,Therapy,Low,Medicare,North,'In Treatment'
+'Middle age',Female,'High BP',High,Flu,Surgery,Mid,Private,West,Critical
+'young age',Female,'Low BP',Low,Flu,Observation,High,Medicaid,West,Recovered
+'Old Age',Female,'Low BP',Low,Asthma,Medication,Low,Medicaid,West,Recovered
+'young age',Male,'High BP',Mid,Flu,Surgery,Mid,Private,East,Critical
+'young age',Female,'Low BP',Low,Hypertension,Medication,Low,Medicare,North,Recovered
+'Old Age',Male,'Low BP',Mid,Flu,Surgery,Mid,Uninsured,East,Critical
+'Old Age',Female,'Low BP',High,Covid-19,Therapy,Low,Uninsured,West,Critical
+'young age',Female,'High BP',High,Asthma,Surgery,High,Uninsured,East,'In Treatment'
+'young age',Female,'High BP',Low,Covid-19,Therapy,High,Private,West,Recovered
+'Old Age',Female,'Low BP',Low,Covid-19,Surgery,High,Medicare,West,Critical
+'Old Age',Male,'Low BP',Mid,Hypertension,Medication,Low,Private,East,'In Treatment'
+'young age',Female,'Low BP',High,Asthma,Medication,Low,Uninsured,West,'In Treatment'
+'Middle age',Female,'Low BP',High,Diabetes,Surgery,Mid,Medicaid,East,Critical
+'Middle age',Female,'High BP',Low,Flu,Observation,Low,Medicaid,South,Critical
+'young age',Female,'High BP',Low,Hypertension,Observation,Mid,Medicaid,East,Recovered
+'young age',Male,'Low BP',High,Hypertension,Surgery,Low,Uninsured,South,Recovered
+'Old Age',Female,'Low BP',High,Covid-19,Therapy,Low,Medicare,South,Recovered
+'Old Age',Female,'Low BP',Low,Flu,Surgery,Low,Uninsured,East,Recovered
+'young age',Female,'Low BP',High,Hypertension,Observation,Mid,Medicaid,West,Recovered
+'young age',Female,'Low BP',Mid,Asthma,Surgery,Low,Uninsured,South,Recovered
+'young age',Female,'High BP',Mid,Covid-19,Therapy,High,Private,North,Recovered
+'Old Age',Male,'Low BP',Mid,Diabetes,Surgery,High,Uninsured,South,Recovered
+'Old Age',Female,'Low BP',Mid,Flu,Medication,Low,Private,North,Recovered
+'Middle age',Male,'High BP',Mid,Covid-19,Therapy,High,Private,East,Recovered
+'Middle age',Female,'High BP',High,Hypertension,Medication,Mid,Private,East,Recovered
+'Middle age',Male,'Low BP',Mid,Asthma,Surgery,High,Private,East,Recovered
+'Middle age',Female,'Low BP',High,Hypertension,Medication,Low,Private,North,Recovered
+'Middle age',Male,'Low BP',Low,Diabetes,Surgery,High,Medicare,North,Recovered
+'young age',Male,'Low BP',Low,Covid-19,Observation,High,Medicaid,West,Recovered
+'Middle age',Male,'High BP',High,Asthma,Medication,Mid,Uninsured,East,Recovered
+'Middle age',Female,'Low BP',High,Diabetes,Medication,Mid,Private,South,Recovered
+'Old Age',Male,'Low BP',High,Covid-19,Therapy,Low,Medicare,South,Recovered
+'Old Age',Female,'High BP',Mid,Diabetes,Therapy,Mid,Uninsured,South,Recovered
+'Middle age',Female,'Low BP',High,Asthma,Medication,High,Uninsured,South,Recovered
+'Middle age',Male,'High BP',High,Hypertension,Observation,High,Medicare,West,Recovered
+'Old Age',Male,'High BP',Mid,Covid-19,Surgery,Low,Uninsured,East,Recovered
+'young age',Female,'Low BP',High,Flu,Surgery,Mid,Uninsured,North,Recovered
+'Middle age',Male,'High BP',Mid,Hypertension,Surgery,High,Medicaid,East,Recovered
+'Middle age',Male,'Low BP',High,Asthma,Medication,Low,Private,North,Recovered
+'young age',Male,'High BP',Mid,Asthma,Observation,Low,Uninsured,West,Recovered
+'Middle age',Male,'Low BP',High,Asthma,Observation,High,Medicare,West,Recovered
+'Middle age',Male,'Low BP',High,Covid-19,Medication,High,Private,North,Recovered
+'Middle age',Male,'Low BP',Low,Covid-19,Medication,Low,Uninsured,West,Recovered
+'Old Age',Male,'High BP',High,Asthma,Surgery,High,Medicaid,South,Recovered
+'Middle age',Male,'Low BP',Mid,Covid-19,Therapy,Mid,Medicare,West,Recovered
+'Middle age',Female,'High BP',Mid,Asthma,Observation,Mid,Private,North,Recovered
+'Old Age',Male,'High BP',High,Hypertension,Surgery,Low,Medicare,South,Recovered
+'Middle age',Female,'High BP',Low,Covid-19,Surgery,Low,Private,East,Recovered
+'young age',Female,'High BP',Mid,Diabetes,Therapy,Mid,Uninsured,West,Recovered
+'Middle age',Male,'High BP',Mid,Covid-19,Medication,Low,Uninsured,West,Recovered
+'Old Age',Male,'High BP',Mid,Flu,Medication,Mid,Private,South,Recovered
+'Middle age',Female,'High BP',High,Asthma,Observation,Mid,Private,North,Recovered
+'Middle age',Male,'Low BP',Mid,Diabetes,Surgery,High,Medicaid,South,Recovered
+'Middle age',Male,'High BP',Low,Diabetes,Medication,Low,Medicaid,South,Recovered
+'Old Age',Male,'Low BP',Mid,Covid-19,Observation,High,Medicare,North,Recovered
+'Middle age',Female,'Low BP',Mid,Diabetes,Medication,Low,Medicaid,West,Recovered
+'Middle age',Male,'Low BP',High,Asthma,Therapy,Low,Private,South,Recovered
+'Old Age',Female,'Low BP',High,Flu,Medication,Low,Private,South,Recovered
+'Old Age',Male,'Low BP',Mid,Asthma,Surgery,High,Medicaid,South,Recovered
+'Old Age',Male,'Low BP',Mid,Asthma,Therapy,Mid,Medicare,East,Recovered
+'young age',Female,'Low BP',Low,Hypertension,Medication,Low,Uninsured,North,Recovered
+'young age',Female,'High BP',High,Hypertension,Medication,Low,Private,West,Recovered
+'young age',Male,'High BP',High,Covid-19,Surgery,High,Medicare,North,Recovered
+'Old Age',Female,'High BP',Mid,Flu,Therapy,Mid,Medicaid,West,Recovered
+'young age',Female,'Low BP',Mid,Diabetes,Therapy,Low,Medicaid,West,Recovered
+'young age',Female,'High BP',High,Covid-19,Therapy,Low,Uninsured,North,Recovered
+'Middle age',Male,'Low BP',High,Asthma,Therapy,Low,Medicaid,South,Recovered
+'Old Age',Female,'High BP',High,Hypertension,Observation,Mid,Medicare,East,Recovered
+'Old Age',Female,'Low BP',High,Covid-19,Medication,Low,Uninsured,North,Recovered
+'young age',Female,'High BP',Mid,Diabetes,Observation,Mid,Medicaid,South,Recovered
+'young age',Female,'Low BP',Low,Hypertension,Medication,Low,Medicare,North,Recovered
+'young age',Male,'Low BP',Mid,Covid-19,Medication,Low,Uninsured,West,Recovered
+'Old Age',Female,'Low BP',Mid,Hypertension,Observation,Mid,Medicaid,East,Recovered
+'Middle age',Male,'High BP',Low,Flu,Surgery,High,Medicaid,North,Recovered
+'Middle age',Female,'High BP',High,Diabetes,Medication,Mid,Uninsured,South,Recovered
+'young age',Female,'High BP',High,Covid-19,Medication,Mid,Uninsured,East,Recovered
+'Middle age',Male,'High BP',Mid,Asthma,Surgery,High,Medicare,West,Recovered
+'Middle age',Male,'Low BP',High,Asthma,Medication,Low,Private,North,Recovered
+'young age',Female,'High BP',Low,Flu,Surgery,Low,Medicare,East,Recovered
+'young age',Male,'High BP',High,Hypertension,Surgery,Low,Medicare,South,Recovered
+'young age',Male,'Low BP',Mid,Hypertension,Therapy,High,Uninsured,East,Recovered
+'Middle age',Male,'Low BP',High,Covid-19,Therapy,Low,Medicaid,South,Recovered
+'Old Age',Male,'High BP',Mid,Flu,Medication,Low,Private,South,Recovered
+'young age',Male,'High BP',High,Flu,Therapy,Mid,Uninsured,East,Recovered
+'Old Age',Male,'High BP',Mid,Covid-19,Observation,Low,Uninsured,West,Recovered
+'Middle age',Female,'Low BP',Low,Diabetes,Medication,Mid,Private,South,Recovered
+'Middle age',Female,'High BP',High,Asthma,Medication,Mid,Uninsured,South,Recovered
+'young age',Male,'High BP',High,Hypertension,Surgery,Low,Uninsured,South,Recovered
+'young age',Male,'High BP',Mid,Diabetes,Surgery,Mid,Uninsured,South,Recovered
+'Middle age',Male,'Low BP',Mid,Diabetes,Surgery,Low,Uninsured,South,Recovered
+'Middle age',Male,'Low BP',Low,Flu,Medication,Low,Medicare,North,Recovered
+'Middle age',Female,'Low BP',Low,Asthma,Observation,High,Medicare,South,Recovered
+'Middle age',Female,'High BP',Mid,Asthma,Observation,High,Medicaid,South,Recovered
+'Middle age',Female,'Low BP',Low,Asthma,Observation,High,Private,South,Recovered
+'Middle age',Male,'Low BP',High,Asthma,Therapy,Mid,Uninsured,East,Recovered
+'Middle age',Male,'High BP',Mid,Covid-19,Observation,Low,Uninsured,East,Recovered
+'young age',Male,'High BP',Mid,Asthma,Medication,Mid,Uninsured,East,Recovered
+'Old Age',Female,'High BP',High,Covid-19,Medication,Low,Private,West,Recovered
+'young age',Male,'Low BP',Mid,Covid-19,Medication,Low,Uninsured,West,Recovered
+'young age',Male,'High BP',Mid,Hypertension,Therapy,Mid,Medicaid,East,Recovered
+'young age',Male,'High BP',High,Covid-19,Medication,Mid,Private,North,Recovered
+'young age',Female,'High BP',Mid,Flu,Therapy,Low,Uninsured,North,Recovered
+'Old Age',Male,'Low BP',Low,Covid-19,Observation,Low,Uninsured,West,Recovered
+'Old Age',Male,'High BP',High,Covid-19,Surgery,High,Private,North,Recovered
+'young age',Female,'Low BP',High,Flu,Therapy,Mid,Private,West,Recovered
+'Middle age',Female,'High BP',Low,Covid-19,Medication,High,Medicare,North,Recovered
+'Middle age',Female,'Low BP',Low,Asthma,Observation,High,Private,South,Recovered
+'Middle age',Female,'Low BP',Mid,Asthma,Observation,High,Medicaid,South,Recovered
+'Old Age',Female,'High BP',Low,Covid-19,Medication,Mid,Private,East,Recovered
+'Old Age',Female,'High BP',High,Flu,Surgery,Mid,Medicare,East,Recovered
+'young age',Female,'High BP',High,Flu,Medication,High,Medicaid,West,Recovered
+'Old Age',Male,'Low BP',Mid,Covid-19,Observation,Low,Uninsured,West,Recovered
+'Old Age',Male,'High BP',High,Covid-19,Observation,Mid,Medicaid,East,Recovered
+'young age',Male,'High BP',Mid,Flu,Surgery,Mid,Uninsured,South,Recovered
+'Old Age',Female,'High BP',Mid,Covid-19,Observation,High,Medicaid,North,Recovered
+'Middle age',Female,'Low BP',Low,Diabetes,Observation,High,Private,South,Recovered
+'Middle age',Female,'Low BP',Mid,Hypertension,Therapy,High,Uninsured,West,Recovered
+'Middle age',Male,'Low BP',Low,Diabetes,Surgery,High,Medicare,South,Recovered
+'young age',Male,'High BP',Low,Covid-19,Therapy,High,Uninsured,West,Recovered
+'Old Age',Male,'High BP',High,Hypertension,Surgery,Low,Uninsured,South,Recovered
+'young age',Female,'High BP',High,Covid-19,Therapy,High,Private,South,Recovered
+'Middle age',Female,'High BP',Low,Asthma,Surgery,High,Private,South,Recovered
+'Middle age',Male,'Low BP',High,Asthma,Therapy,Low,Private,North,Recovered
+'young age',Female,'High BP',High,Hypertension,Observation,Mid,Medicaid,West,Recovered
+'Old Age',Male,'High BP',Low,Covid-19,Observation,High,Uninsured,East,Recovered
+'Middle age',Female,'Low BP',Low,Asthma,Therapy,High,Medicaid,West,Recovered
+'Middle age',Female,'Low BP',High,Asthma,Therapy,High,Uninsured,South,Recovered
+'young age',Female,'High BP',Low,Asthma,Observation,High,Private,North,Recovered
+'young age',Female,'High BP',High,Flu,Therapy,Mid,Medicaid,West,Recovered
+'young age',Male,'Low BP',High,Covid-19,Medication,Mid,Medicare,East,Recovered
+'Old Age',Male,'High BP',Mid,Covid-19,Medication,Mid,Private,East,Recovered
+'young age',Female,'High BP',Mid,Covid-19,Therapy,High,Private,South,Recovered
+'Middle age',Male,'High BP',Low,Hypertension,Observation,Low,Uninsured,North,Recovered
+'Old Age',Male,'High BP',Low,Hypertension,Surgery,High,Private,West,Recovered
+'young age',Male,'High BP',Low,Flu,Therapy,High,Medicaid,North,Recovered
+'Old Age',Female,'Low BP',High,Flu,Medication,Low,Private,South,Recovered
+'Middle age',Male,'High BP',Low,Hypertension,Medication,Low,Medicare,North,Recovered
+'young age',Female,'High BP',High,Flu,Therapy,High,Medicaid,West,Recovered
+'Middle age',Male,'Low BP',High,Asthma,Therapy,Low,Medicaid,South,Recovered
+'Middle age',Male,'High BP',High,Hypertension,Therapy,Low,Uninsured,North,Recovered
+'Middle age',Female,'Low BP',Mid,Diabetes,Therapy,High,Private,East,Recovered
+'Middle age',Female,'Low BP',Low,Flu,Surgery,Mid,Uninsured,West,Recovered
+'Middle age',Male,'High BP',High,Diabetes,Medication,Mid,Uninsured,South,Recovered
+'Old Age',Male,'Low BP',High,Covid-19,Observation,Low,Medicare,North,Recovered
+'Old Age',Male,'High BP',Low,Covid-19,Surgery,High,Private,West,Recovered
+'Old Age',Male,'High BP',Mid,Hypertension,Observation,High,Private,West,Recovered
+'young age',Female,'High BP',High,Covid-19,Medication,Mid,Private,East,Recovered
+'Old Age',Female,'High BP',High,Hypertension,Observation,Mid,Medicare,West,Recovered
+'Old Age',Male,'Low BP',Mid,Covid-19,Observation,Low,Medicare,North,Recovered
+'Middle age',Male,'High BP',High,Hypertension,Surgery,Mid,Private,North,Recovered
+'Middle age',Female,'Low BP',Low,Covid-19,Surgery,Mid,Private,West,Recovered
+'young age',Male,'High BP',Mid,Hypertension,Therapy,Mid,Uninsured,East,Recovered
+'Old Age',Female,'Low BP',Low,Flu,Surgery,Low,Private,East,Recovered
+'Old Age',Male,'Low BP',High,Asthma,Surgery,Low,Uninsured,South,Recovered
+'young age',Male,'High BP',Mid,Hypertension,Therapy,Mid,Uninsured,East,Recovered
+'young age',Male,'High BP',Mid,Asthma,Surgery,Mid,Private,East,Recovered
+'Middle age',Female,'Low BP',Low,Covid-19,Surgery,Mid,Uninsured,West,Recovered
+'Old Age',Female,'High BP',High,Covid-19,Surgery,High,Private,South,Recovered
+'young age',Female,'Low BP',Mid,Diabetes,Surgery,High,Private,East,Recovered
+'Old Age',Male,'Low BP',Mid,Flu,Medication,Low,Private,South,Recovered
+'Middle age',Male,'Low BP',High,Covid-19,Medication,Low,Medicare,South,Recovered
+'Middle age',Female,'High BP',Low,Covid-19,Surgery,Mid,Uninsured,West,Recovered
+'young age',Female,'Low BP',Mid,Covid-19,Therapy,Mid,Private,West,Recovered
+'Middle age',Male,'Low BP',Mid,Diabetes,Surgery,High,Medicare,South,Recovered
+'Old Age',Male,'Low BP',Mid,Asthma,Surgery,Low,Medicare,West,Recovered
+'Old Age',Male,'High BP',High,Asthma,Surgery,Low,Medicare,South,Recovered
+'young age',Female,'High BP',High,Covid-19,Surgery,High,Uninsured,West,Recovered
+'Middle age',Female,'Low BP',High,Diabetes,Surgery,Low,Medicaid,West,Recovered
+'Old Age',Male,'Low BP',Mid,Covid-19,Medication,Mid,Medicare,South,Recovered
+'Old Age',Female,'Low BP',Mid,Flu,Medication,Low,Private,North,Recovered
+'Old Age',Female,'High BP',Mid,Asthma,Therapy,High,Medicaid,West,Recovered
+'Middle age',Male,'Low BP',Low,Covid-19,Medication,High,Private,North,Recovered
+'Middle age',Male,'Low BP',Low,Diabetes,Surgery,High,Medicare,North,Recovered
+'Middle age',Female,'Low BP',Mid,Diabetes,Surgery,Low,Medicare,North,Recovered
+'Old Age',Male,'High BP',High,Asthma,Medication,Mid,Uninsured,South,Recovered
+'Middle age',Female,'High BP',Mid,Diabetes,Medication,Low,Medicaid,West,Recovered
+'young age',Female,'High BP',High,Covid-19,Surgery,High,Medicare,West,Recovered
+'young age',Male,'High BP',Low,Asthma,Observation,High,Private,South,Recovered
+'Old Age',Male,'Low BP',High,Covid-19,Observation,Low,Medicare,North,Recovered
+'young age',Male,'Low BP',Mid,Asthma,Observation,Mid,Uninsured,East,Recovered
+'Middle age',Male,'High BP',Low,Covid-19,Medication,High,Medicare,North,Recovered
+'Old Age',Male,'High BP',Mid,Covid-19,Therapy,High,Private,South,Recovered
+'Middle age',Male,'Low BP',High,Hypertension,Therapy,Low,Medicaid,South,Recovered
+'Middle age',Female,'High BP',High,Asthma,Medication,Mid,Uninsured,East,Recovered
+'Middle age',Male,'Low BP',High,Asthma,Therapy,Low,Medicaid,East,Recovered
+'young age',Male,'High BP',Low,Flu,Medication,High,Medicaid,North,Recovered
+'Middle age',Female,'High BP',High,Hypertension,Medication,Low,Uninsured,North,Recovered
+'Old Age',Female,'High BP',High,Flu,Surgery,Low,Medicare,East,Recovered
+'Middle age',Female,'High BP',Low,Flu,Surgery,Mid,Uninsured,West,Recovered
+'Middle age',Female,'Low BP',Low,Flu,Observation,High,Medicaid,West,Recovered
+'Old Age',Male,'High BP',High,Asthma,Medication,Mid,Uninsured,East,Recovered
+'Middle age',Male,'High BP',High,Covid-19,Observation,Low,Uninsured,South,Recovered
+'young age',Female,'Low BP',Mid,Asthma,Surgery,High,Medicaid,West,Recovered
+'Middle age',Female,'Low BP',Low,Flu,Surgery,High,Uninsured,West,Recovered
+'Old Age',Female,'High BP',High,Asthma,Observation,Mid,Uninsured,East,Recovered
+'Middle age',Male,'High BP',High,Hypertension,Therapy,Low,Medicare,North,Recovered
+'Middle age',Female,'High BP',Low,Covid-19,Observation,High,Medicaid,North,Recovered
+'young age',Male,'High BP',Low,Flu,Medication,High,Medicaid,North,Recovered
+'Middle age',Male,'High BP',High,Hypertension,Observation,Mid,Private,North,Recovered
+'young age',Female,'Low BP',Mid,Diabetes,Surgery,Low,Medicare,East,Recovered
+'young age',Female,'High BP',Mid,Asthma,Observation,Mid,Private,North,Recovered
+'Middle age',Female,'Low BP',Mid,Flu,Therapy,Mid,Medicare,West,Recovered
+'young age',Female,'Low BP',High,Flu,Surgery,Mid,Private,West,Recovered
+'Middle age',Male,'High BP',Mid,Hypertension,Surgery,High,Uninsured,East,Recovered
+'Middle age',Female,'High BP',Low,Covid-19,Surgery,Low,Private,South,Recovered
+'Old Age',Female,'High BP',High,Flu,Surgery,Low,Medicaid,East,Recovered
+'Old Age',Female,'Low BP',Low,Asthma,Therapy,Low,Uninsured,North,Recovered
+'Middle age',Female,'Low BP',High,Asthma,Observation,High,Private,West,Recovered
+'Old Age',Male,'High BP',Mid,Asthma,Observation,Mid,Private,West,Recovered
+'young age',Female,'High BP',High,Flu,Surgery,High,Medicare,East,Recovered
+'Middle age',Female,'High BP',Mid,Asthma,Surgery,Low,Uninsured,South,Recovered
+'young age',Male,'High BP',Mid,Diabetes,Therapy,Mid,Medicaid,South,Recovered
+'young age',Male,'Low BP',Mid,Asthma,Medication,Low,Private,North,Recovered
+'Middle age',Female,'Low BP',Mid,Asthma,Observation,High,Medicare,South,Recovered
+'Old Age',Male,'Low BP',Mid,Covid-19,Therapy,Mid,Medicare,South,Recovered
+'young age',Male,'Low BP',Mid,Diabetes,Surgery,Low,Medicare,South,Recovered
+'young age',Female,'Low BP',High,Covid-19,Therapy,Low,Private,West,Recovered
+'Middle age',Female,'High BP',Low,Diabetes,Observation,Low,Medicaid,South,Recovered
+'young age',Male,'High BP',Mid,Hypertension,Observation,High,Medicaid,East,Recovered
+'Middle age',Male,'Low BP',Mid,Flu,Surgery,Mid,Uninsured,South,Recovered
+'Old Age',Female,'Low BP',Mid,Flu,Therapy,High,Uninsured,North,Recovered
+'young age',Male,'Low BP',Mid,Asthma,Surgery,Mid,Uninsured,South,Recovered
+'Middle age',Male,'Low BP',Mid,Diabetes,Therapy,Low,Medicare,West,Recovered
+'Middle age',Male,'High BP',Mid,Covid-19,Therapy,High,Private,East,Recovered
+'Old Age',Male,'Low BP',Mid,Asthma,Observation,Mid,Private,North,Recovered
+'Old Age',Male,'Low BP',Mid,Hypertension,Therapy,High,Uninsured,East,Recovered
+'Middle age',Male,'High BP',High,Hypertension,Observation,Low,Medicare,West,Recovered
+'Middle age',Male,'High BP',Low,Hypertension,Surgery,High,Medicare,East,Recovered
+'Middle age',Female,'Low BP',High,Asthma,Observation,High,Private,West,Recovered
+'Middle age',Female,'High BP',Low,Covid-19,Surgery,High,Private,South,Recovered
+'young age',Female,'High BP',High,Covid-19,Surgery,Low,Medicaid,East,Recovered
+'Middle age',Male,'High BP',High,Diabetes,Medication,Low,Uninsured,South,Recovered
+'young age',Male,'High BP',High,Covid-19,Therapy,High,Private,West,Recovered
+'Old Age',Male,'Low BP',Mid,Asthma,Surgery,Low,Private,East,Recovered
+'Old Age',Female,'High BP',Low,Asthma,Surgery,High,Medicaid,West,Recovered
+'Middle age',Male,'High BP',Low,Covid-19,Surgery,High,Private,West,Recovered
+'Old Age',Male,'Low BP',Mid,Asthma,Therapy,High,Medicaid,East,Recovered
+'Old Age',Male,'Low BP',Low,Covid-19,Medication,High,Private,East,Recovered
+'young age',Female,'Low BP',Mid,Flu,Therapy,Low,Private,North,Recovered
+'young age',Male,'High BP',Mid,Hypertension,Medication,Low,Private,West,Recovered
+'young age',Male,'Low BP',Low,Flu,Observation,High,Medicaid,West,Recovered
+'Middle age',Male,'High BP',Mid,Asthma,Observation,Low,Private,West,Recovered
+'Old Age',Female,'Low BP',Low,Diabetes,Surgery,High,Medicare,South,Recovered
+'Middle age',Female,'Low BP',Low,Flu,Surgery,High,Medicaid,West,Recovered
+'young age',Female,'High BP',Mid,Diabetes,Surgery,Low,Uninsured,South,Recovered
+'Middle age',Male,'Low BP',Low,Covid-19,Medication,Low,Uninsured,West,Recovered
+'Old Age',Male,'Low BP',Mid,Asthma,Observation,Low,Private,South,Recovered
+'young age',Male,'Low BP',Mid,Hypertension,Therapy,Mid,Uninsured,East,Recovered
+'young age',Female,'High BP',Low,Asthma,Medication,Mid,Private,West,Recovered
+'Middle age',Female,'Low BP',Mid,Flu,Medication,High,Uninsured,North,Recovered
+'Old Age',Male,'High BP',High,Asthma,Surgery,Low,Private,North,Recovered
+'young age',Female,'High BP',High,Covid-19,Observation,Low,Uninsured,East,Recovered
+'Old Age',Male,'High BP',Mid,Diabetes,Observation,Mid,Private,East,Recovered
+'young age',Male,'High BP',Low,Flu,Medication,High,Medicare,North,Recovered
+'Old Age',Male,'Low BP',High,Covid-19,Medication,Mid,Medicare,North,Recovered
+'Old Age',Male,'High BP',Mid,Flu,Therapy,Mid,Medicaid,South,Recovered
+'Old Age',Female,'High BP',Low,Covid-19,Medication,Low,Private,South,Recovered
+'Middle age',Male,'High BP',High,Hypertension,Observation,High,Medicare,West,Recovered
+'Middle age',Female,'High BP',Low,Covid-19,Surgery,Low,Private,East,Recovered
+'Middle age',Male,'Low BP',High,Asthma,Therapy,Low,Private,West,Recovered
+'Middle age',Male,'High BP',Mid,Flu,Observation,Low,Medicare,North,Recovered
+'young age',Male,'Low BP',Low,Diabetes,Surgery,High,Medicare,South,Recovered
+'young age',Male,'High BP',High,Covid-19,Surgery,Low,Uninsured,West,Recovered
+'Middle age',Male,'High BP',High,Covid-19,Observation,Low,Uninsured,East,Recovered
+'young age',Female,'High BP',Mid,Asthma,Observation,Mid,Private,West,Recovered
+'young age',Male,'Low BP',Mid,Hypertension,Therapy,Mid,Uninsured,East,Recovered
+'young age',Male,'Low BP',Mid,Hypertension,Therapy,Low,Uninsured,East,Recovered
+'Old Age',Male,'High BP',Mid,Flu,Therapy,Mid,Medicaid,South,Recovered
+'Middle age',Male,'Low BP',Low,Diabetes,Surgery,High,Medicare,South,Recovered
+'Middle age',Female,'Low BP',Mid,Hypertension,Therapy,High,Private,East,Recovered
+'young age',Female,'High BP',High,Covid-19,Medication,Mid,Medicare,East,Recovered
+'Middle age',Male,'High BP',High,Diabetes,Medication,Mid,Uninsured,South,Recovered
+'Old Age',Male,'High BP',Mid,Flu,Therapy,Mid,Medicaid,South,Recovered
+'young age',Male,'High BP',High,Covid-19,Surgery,High,Medicare,West,Recovered
+'young age',Female,'High BP',Mid,Diabetes,Surgery,Low,Medicare,North,Recovered
+'young age',Female,'Low BP',Low,Hypertension,Medication,Low,Medicare,North,Recovered
+'Old Age',Male,'Low BP',High,Asthma,Therapy,Mid,Uninsured,East,Recovered
+'young age',Male,'Low BP',Mid,Asthma,Therapy,Mid,Uninsured,East,Recovered
+'Middle age',Female,'High BP',Mid,Covid-19,Medication,High,Private,North,Recovered
+'Middle age',Male,'Low BP',High,Asthma,Therapy,Low,Uninsured,South,Recovered
+'young age',Female,'Low BP',Low,Hypertension,Medication,Low,Medicare,North,Recovered
+'Old Age',Male,'High BP',Mid,Flu,Therapy,Mid,Medicaid,South,Recovered
+'Old Age',Male,'High BP',Mid,Flu,Therapy,Mid,Medicaid,South,Recovered
+'Middle age',Female,'Low BP',Low,Flu,Observation,High,Medicaid,West,Recovered
+'Old Age',Female,'Low BP',Mid,Asthma,Therapy,Low,Medicaid,West,Recovered
+'young age',Female,'Low BP',Mid,Hypertension,Medication,Low,Medicare,North,Recovered
+'young age',Female,'High BP',Mid,Covid-19,Therapy,High,Private,West,Recovered
+'young age',Male,'High BP',Mid,Hypertension,Observation,Mid,Medicaid,East,Recovered
+'Middle age',Male,'Low BP',High,Hypertension,Surgery,Low,Medicare,South,Recovered
+'Middle age',Male,'High BP',High,Covid-19,Surgery,Mid,Private,South,'In Treatment'
+'young age',Male,'High BP',Mid,Diabetes,Therapy,High,Private,South,'In Treatment'
+'young age',Male,'High BP',Mid,Flu,Surgery,High,Uninsured,West,'In Treatment'
+'Middle age',Female,'High BP',Mid,Asthma,Therapy,Mid,Medicaid,South,'In Treatment'
+'Old Age',Male,'High BP',High,Asthma,Observation,High,Medicaid,West,'In Treatment'
+'young age',Female,'High BP',Low,Diabetes,Medication,Mid,Medicaid,West,'In Treatment'
+'Old Age',Male,'Low BP',Low,Covid-19,Surgery,High,Medicaid,North,'In Treatment'
+'young age',Male,'High BP',Low,Asthma,Therapy,Low,Private,South,'In Treatment'
+'Middle age',Male,'Low BP',Mid,Hypertension,Observation,High,Medicare,North,'In Treatment'
+'Old Age',Male,'High BP',Mid,Asthma,Surgery,Mid,Medicare,North,'In Treatment'
+'Old Age',Female,'Low BP',Mid,Asthma,Observation,High,Uninsured,South,'In Treatment'
+'Old Age',Male,'High BP',High,Diabetes,Therapy,Low,Uninsured,North,'In Treatment'
+'Middle age',Female,'Low BP',High,Hypertension,Surgery,High,Medicaid,South,'In Treatment'
+'Old Age',Female,'High BP',Mid,Hypertension,Therapy,Mid,Medicare,East,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Diabetes,Medication,High,Medicaid,South,'In Treatment'
+'young age',Male,'High BP',Mid,Flu,Medication,Mid,Uninsured,South,'In Treatment'
+'Old Age',Male,'Low BP',Mid,Diabetes,Therapy,Mid,Medicare,North,'In Treatment'
+'Old Age',Male,'High BP',Mid,Flu,Medication,Mid,Uninsured,West,'In Treatment'
+'Old Age',Male,'Low BP',High,Covid-19,Medication,High,Medicaid,East,'In Treatment'
+'Middle age',Female,'Low BP',High,Diabetes,Observation,High,Medicare,West,'In Treatment'
+'Old Age',Male,'High BP',Low,Asthma,Surgery,Low,Private,East,'In Treatment'
+'Middle age',Male,'High BP',High,Diabetes,Medication,Mid,Private,South,'In Treatment'
+'Old Age',Female,'Low BP',High,Diabetes,Surgery,High,Medicare,West,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Diabetes,Therapy,Low,Uninsured,East,'In Treatment'
+'Old Age',Female,'High BP',Mid,Diabetes,Surgery,Mid,Medicare,West,'In Treatment'
+'Old Age',Male,'Low BP',Low,Asthma,Observation,Low,Uninsured,East,'In Treatment'
+'Old Age',Female,'High BP',High,Flu,Observation,High,Private,North,'In Treatment'
+'Old Age',Male,'High BP',Mid,Asthma,Medication,High,Medicaid,West,'In Treatment'
+'Middle age',Male,'High BP',High,Covid-19,Therapy,High,Medicare,South,'In Treatment'
+'Old Age',Male,'High BP',Low,Covid-19,Medication,Mid,Medicare,South,'In Treatment'
+'young age',Female,'High BP',Low,Asthma,Surgery,Low,Uninsured,West,'In Treatment'
+'Old Age',Male,'High BP',Mid,Flu,Observation,Low,Private,South,'In Treatment'
+'young age',Male,'High BP',Mid,Flu,Medication,Mid,Uninsured,South,'In Treatment'
+'Middle age',Male,'Low BP',Mid,Flu,Observation,High,Uninsured,South,'In Treatment'
+'Middle age',Female,'Low BP',Low,Asthma,Therapy,High,Medicaid,North,'In Treatment'
+'Old Age',Male,'High BP',High,Covid-19,Surgery,Mid,Medicare,North,'In Treatment'
+'Old Age',Male,'Low BP',High,Flu,Medication,Low,Private,West,'In Treatment'
+'young age',Male,'High BP',Mid,Covid-19,Medication,High,Medicare,East,'In Treatment'
+'young age',Female,'High BP',Low,Hypertension,Observation,Mid,Uninsured,West,'In Treatment'
+'Old Age',Male,'Low BP',Low,Flu,Medication,Low,Private,East,'In Treatment'
+'Old Age',Female,'High BP',Low,Diabetes,Medication,Low,Uninsured,North,'In Treatment'
+'Middle age',Female,'High BP',Low,Diabetes,Observation,Low,Uninsured,North,'In Treatment'
+'young age',Male,'Low BP',Low,Flu,Observation,Low,Medicaid,South,'In Treatment'
+'Old Age',Male,'High BP',Mid,Asthma,Surgery,Mid,Medicaid,East,'In Treatment'
+'Old Age',Male,'High BP',High,Covid-19,Surgery,Low,Private,North,'In Treatment'
+'Middle age',Female,'High BP',Low,Diabetes,Observation,Mid,Medicaid,South,'In Treatment'
+'young age',Male,'High BP',Low,Hypertension,Medication,High,Private,West,'In Treatment'
+'young age',Male,'High BP',Mid,Asthma,Surgery,High,Uninsured,West,'In Treatment'
+'Old Age',Male,'High BP',Low,Covid-19,Observation,Mid,Medicaid,South,'In Treatment'
+'Middle age',Female,'High BP',Mid,Covid-19,Observation,Mid,Uninsured,West,'In Treatment'
+'Middle age',Female,'High BP',Low,Diabetes,Observation,Mid,Uninsured,West,'In Treatment'
+'young age',Female,'High BP',Low,Flu,Therapy,Mid,Private,North,'In Treatment'
+'Middle age',Female,'High BP',Mid,Covid-19,Surgery,Low,Uninsured,South,'In Treatment'
+'young age',Female,'Low BP',Mid,Hypertension,Medication,High,Private,East,'In Treatment'
+'Middle age',Female,'High BP',Mid,Diabetes,Observation,Low,Private,East,'In Treatment'
+'Old Age',Female,'Low BP',High,Diabetes,Observation,Low,Medicare,West,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Diabetes,Therapy,High,Uninsured,East,'In Treatment'
+'Middle age',Female,'High BP',Mid,Diabetes,Medication,Mid,Private,West,'In Treatment'
+'Middle age',Male,'Low BP',High,Diabetes,Observation,Mid,Private,South,'In Treatment'
+'Old Age',Male,'High BP',Low,Covid-19,Medication,Mid,Uninsured,North,'In Treatment'
+'young age',Male,'Low BP',Low,Flu,Medication,High,Uninsured,East,'In Treatment'
+'Middle age',Female,'High BP',Mid,Asthma,Surgery,Mid,Uninsured,North,'In Treatment'
+'Middle age',Male,'Low BP',Mid,Flu,Observation,Low,Uninsured,East,'In Treatment'
+'Old Age',Male,'High BP',High,Asthma,Observation,Low,Medicare,West,'In Treatment'
+'Middle age',Female,'High BP',High,Covid-19,Observation,Low,Private,West,'In Treatment'
+'young age',Male,'Low BP',Mid,Diabetes,Therapy,High,Medicare,East,'In Treatment'
+'Middle age',Male,'High BP',Mid,Covid-19,Therapy,Mid,Uninsured,North,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Hypertension,Observation,High,Medicare,South,'In Treatment'
+'young age',Male,'High BP',Mid,Diabetes,Surgery,Low,Uninsured,West,'In Treatment'
+'young age',Female,'Low BP',Low,Asthma,Medication,High,Medicaid,East,'In Treatment'
+'young age',Male,'High BP',Mid,Diabetes,Therapy,Low,Private,North,'In Treatment'
+'young age',Female,'High BP',Mid,Asthma,Surgery,Low,Medicaid,East,'In Treatment'
+'Old Age',Female,'High BP',Low,Covid-19,Surgery,High,Uninsured,West,'In Treatment'
+'young age',Male,'High BP',Low,Flu,Medication,Mid,Medicaid,North,'In Treatment'
+'Middle age',Male,'Low BP',Low,Flu,Surgery,Low,Private,East,'In Treatment'
+'young age',Female,'Low BP',Mid,Hypertension,Medication,High,Private,West,'In Treatment'
+'young age',Male,'Low BP',High,Flu,Medication,Low,Private,East,'In Treatment'
+'Middle age',Female,'Low BP',Low,Hypertension,Therapy,High,Medicaid,South,'In Treatment'
+'Middle age',Female,'High BP',High,Hypertension,Medication,Mid,Medicare,North,'In Treatment'
+'Middle age',Female,'High BP',High,Diabetes,Medication,Mid,Private,West,'In Treatment'
+'young age',Male,'Low BP',Low,Flu,Observation,High,Medicaid,North,'In Treatment'
+'Middle age',Male,'Low BP',Low,Diabetes,Observation,Mid,Medicare,South,'In Treatment'
+'Middle age',Male,'High BP',Mid,Hypertension,Medication,Low,Medicaid,North,'In Treatment'
+'Old Age',Female,'High BP',High,Flu,Medication,High,Private,North,'In Treatment'
+'Old Age',Female,'High BP',Mid,Covid-19,Therapy,Low,Medicare,East,'In Treatment'
+'Middle age',Male,'High BP',Low,Diabetes,Surgery,Low,Uninsured,South,'In Treatment'
+'Middle age',Male,'Low BP',Mid,Hypertension,Observation,Low,Medicare,South,'In Treatment'
+'Old Age',Male,'Low BP',Mid,Diabetes,Surgery,Low,Uninsured,West,'In Treatment'
+'young age',Male,'Low BP',High,Flu,Observation,Mid,Uninsured,East,'In Treatment'
+'Middle age',Female,'Low BP',High,Flu,Surgery,Low,Uninsured,South,'In Treatment'
+'Middle age',Male,'High BP',Low,Asthma,Medication,Low,Medicaid,North,'In Treatment'
+'Middle age',Female,'High BP',High,Diabetes,Surgery,Mid,Private,West,'In Treatment'
+'Old Age',Female,'High BP',Mid,Asthma,Observation,Low,Uninsured,East,'In Treatment'
+'Old Age',Male,'High BP',Mid,Asthma,Surgery,High,Private,South,'In Treatment'
+'Old Age',Male,'High BP',Mid,Covid-19,Surgery,High,Medicaid,South,'In Treatment'
+'Middle age',Male,'High BP',High,Asthma,Medication,Mid,Medicaid,South,'In Treatment'
+'Old Age',Female,'High BP',Low,Diabetes,Observation,Low,Uninsured,East,'In Treatment'
+'young age',Female,'High BP',Mid,Flu,Medication,Mid,Uninsured,South,'In Treatment'
+'Old Age',Female,'High BP',Low,Asthma,Surgery,High,Private,North,'In Treatment'
+'young age',Female,'High BP',Mid,Diabetes,Medication,Mid,Medicaid,West,'In Treatment'
+'Middle age',Female,'High BP',Low,Covid-19,Surgery,Low,Uninsured,West,'In Treatment'
+'Middle age',Male,'Low BP',High,Asthma,Medication,Low,Uninsured,North,'In Treatment'
+'Old Age',Male,'High BP',High,Covid-19,Surgery,Mid,Medicare,North,'In Treatment'
+'young age',Male,'High BP',Mid,Asthma,Surgery,High,Uninsured,West,'In Treatment'
+'Old Age',Male,'High BP',Low,Asthma,Observation,Mid,Uninsured,East,'In Treatment'
+'young age',Male,'High BP',High,Asthma,Surgery,High,Private,East,'In Treatment'
+'Middle age',Female,'Low BP',Low,Covid-19,Medication,Low,Medicaid,East,'In Treatment'
+'Middle age',Male,'High BP',Mid,Asthma,Surgery,Mid,Private,West,'In Treatment'
+'young age',Male,'High BP',Low,Flu,Therapy,Mid,Medicare,South,'In Treatment'
+'Middle age',Male,'Low BP',Mid,Hypertension,Observation,High,Private,North,'In Treatment'
+'young age',Male,'Low BP',Low,Flu,Therapy,High,Uninsured,North,'In Treatment'
+'young age',Male,'Low BP',Low,Flu,Therapy,Low,Medicare,South,'In Treatment'
+'young age',Female,'High BP',High,Asthma,Surgery,High,Private,East,'In Treatment'
+'Old Age',Male,'Low BP',Mid,Diabetes,Therapy,Mid,Medicare,East,'In Treatment'
+'young age',Male,'Low BP',Low,Asthma,Observation,Low,Private,East,'In Treatment'
+'Middle age',Female,'High BP',Low,Asthma,Surgery,Low,Medicaid,West,'In Treatment'
+'Old Age',Female,'High BP',Low,Covid-19,Observation,High,Medicaid,South,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Flu,Observation,Low,Medicaid,South,'In Treatment'
+'Old Age',Male,'Low BP',Mid,Diabetes,Therapy,Mid,Medicare,North,'In Treatment'
+'Old Age',Male,'Low BP',Low,Diabetes,Medication,Low,Medicaid,West,'In Treatment'
+'Old Age',Female,'High BP',High,Covid-19,Therapy,High,Medicaid,East,'In Treatment'
+'Old Age',Male,'High BP',Mid,Flu,Medication,Mid,Private,South,'In Treatment'
+'young age',Male,'High BP',High,Flu,Observation,Mid,Private,East,'In Treatment'
+'Middle age',Male,'Low BP',Low,Flu,Surgery,Low,Private,East,'In Treatment'
+'Middle age',Female,'High BP',Low,Asthma,Surgery,High,Uninsured,West,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Asthma,Observation,Mid,Uninsured,South,'In Treatment'
+'Old Age',Female,'Low BP',Low,Flu,Therapy,High,Uninsured,North,'In Treatment'
+'young age',Female,'Low BP',Mid,Asthma,Therapy,Low,Medicare,North,'In Treatment'
+'Middle age',Male,'High BP',Mid,Diabetes,Therapy,High,Private,East,'In Treatment'
+'young age',Female,'High BP',High,Flu,Medication,High,Private,North,'In Treatment'
+'young age',Male,'High BP',High,Asthma,Observation,Low,Medicare,West,'In Treatment'
+'young age',Male,'High BP',Low,Covid-19,Therapy,Low,Medicare,North,'In Treatment'
+'young age',Female,'Low BP',High,Asthma,Medication,Low,Medicare,South,'In Treatment'
+'Middle age',Male,'Low BP',Low,Asthma,Therapy,Low,Uninsured,East,'In Treatment'
+'Old Age',Male,'High BP',High,Asthma,Therapy,Mid,Medicaid,South,'In Treatment'
+'Middle age',Female,'Low BP',High,Flu,Medication,Low,Medicaid,South,'In Treatment'
+'Middle age',Female,'Low BP',High,Diabetes,Surgery,Low,Uninsured,West,'In Treatment'
+'young age',Female,'High BP',High,Flu,Observation,High,Private,North,'In Treatment'
+'Middle age',Male,'High BP',Mid,Flu,Medication,Mid,Uninsured,South,'In Treatment'
+'Middle age',Male,'High BP',Mid,Covid-19,Therapy,High,Medicare,North,'In Treatment'
+'Old Age',Male,'High BP',Mid,Flu,Surgery,Low,Private,North,'In Treatment'
+'Old Age',Male,'Low BP',Low,Asthma,Surgery,Mid,Medicaid,East,'In Treatment'
+'Middle age',Male,'Low BP',Low,Asthma,Therapy,Low,Medicaid,North,'In Treatment'
+'young age',Male,'High BP',Mid,Diabetes,Medication,Mid,Medicaid,North,'In Treatment'
+'Middle age',Male,'Low BP',Mid,Hypertension,Observation,High,Uninsured,North,'In Treatment'
+'Old Age',Male,'High BP',High,Asthma,Therapy,Mid,Private,North,'In Treatment'
+'Middle age',Male,'High BP',Mid,Flu,Observation,High,Uninsured,East,'In Treatment'
+'young age',Male,'High BP',High,Asthma,Medication,Mid,Medicaid,East,'In Treatment'
+'young age',Male,'High BP',Low,Diabetes,Medication,Low,Medicare,North,'In Treatment'
+'Old Age',Male,'High BP',Low,Covid-19,Therapy,Mid,Medicare,South,'In Treatment'
+'Old Age',Female,'High BP',Low,Diabetes,Medication,Low,Uninsured,East,'In Treatment'
+'young age',Female,'High BP',Mid,Hypertension,Medication,Mid,Private,West,'In Treatment'
+'Middle age',Female,'High BP',High,Covid-19,Observation,Low,Medicaid,South,'In Treatment'
+'Middle age',Male,'Low BP',Low,Asthma,Therapy,Mid,Private,North,'In Treatment'
+'young age',Male,'High BP',High,Flu,Therapy,Mid,Private,West,'In Treatment'
+'Middle age',Male,'High BP',High,Flu,Surgery,Mid,Medicare,South,'In Treatment'
+'Old Age',Female,'High BP',Mid,Covid-19,Therapy,Low,Medicare,East,'In Treatment'
+'Old Age',Female,'High BP',Mid,Asthma,Therapy,Low,Medicaid,North,'In Treatment'
+'Old Age',Male,'High BP',Low,Covid-19,Medication,Mid,Medicaid,East,'In Treatment'
+'Middle age',Male,'Low BP',Mid,Hypertension,Observation,Mid,Private,East,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Asthma,Therapy,Mid,Uninsured,South,'In Treatment'
+'young age',Female,'High BP',Mid,Covid-19,Medication,High,Medicare,South,'In Treatment'
+'young age',Male,'High BP',High,Asthma,Observation,Low,Private,North,'In Treatment'
+'Old Age',Male,'Low BP',Low,Covid-19,Therapy,Low,Uninsured,South,'In Treatment'
+'Old Age',Male,'Low BP',High,Flu,Medication,Low,Medicaid,East,'In Treatment'
+'young age',Male,'Low BP',Low,Asthma,Observation,Mid,Medicaid,East,'In Treatment'
+'young age',Female,'High BP',Low,Asthma,Surgery,Mid,Private,North,'In Treatment'
+'Middle age',Female,'High BP',Mid,Covid-19,Surgery,Low,Uninsured,South,'In Treatment'
+'Old Age',Female,'High BP',Low,Covid-19,Surgery,Mid,Medicare,East,'In Treatment'
+'Middle age',Female,'High BP',High,Covid-19,Therapy,Mid,Uninsured,East,'In Treatment'
+'Old Age',Male,'High BP',Low,Asthma,Surgery,Mid,Medicaid,East,'In Treatment'
+'Middle age',Female,'Low BP',Low,Asthma,Therapy,High,Medicaid,North,'In Treatment'
+'Old Age',Female,'Low BP',High,Hypertension,Medication,Mid,Medicare,South,'In Treatment'
+'young age',Male,'Low BP',Low,Asthma,Observation,Mid,Medicaid,East,'In Treatment'
+'Old Age',Male,'High BP',Low,Covid-19,Medication,Mid,Uninsured,North,'In Treatment'
+'young age',Male,'Low BP',High,Flu,Medication,Low,Private,East,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Hypertension,Observation,High,Medicaid,South,'In Treatment'
+'Middle age',Male,'High BP',Mid,Hypertension,Medication,Low,Medicaid,North,'In Treatment'
+'Old Age',Female,'Low BP',Low,Covid-19,Therapy,Mid,Medicare,East,'In Treatment'
+'Old Age',Male,'Low BP',High,Asthma,Therapy,Mid,Medicare,East,'In Treatment'
+'Middle age',Female,'Low BP',Low,Covid-19,Medication,Low,Uninsured,East,'In Treatment'
+'young age',Female,'High BP',Mid,Asthma,Surgery,Mid,Medicare,North,'In Treatment'
+'Old Age',Male,'High BP',Low,Asthma,Medication,Mid,Uninsured,East,'In Treatment'
+'Middle age',Male,'Low BP',High,Diabetes,Medication,High,Medicaid,West,'In Treatment'
+'young age',Male,'High BP',Mid,Asthma,Medication,High,Medicaid,North,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Diabetes,Therapy,High,Uninsured,East,'In Treatment'
+'Old Age',Female,'Low BP',Low,Covid-19,Therapy,Low,Medicaid,East,'In Treatment'
+'Middle age',Female,'High BP',Mid,Asthma,Surgery,High,Medicaid,West,'In Treatment'
+'Old Age',Male,'High BP',Low,Diabetes,Surgery,Low,Uninsured,West,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Diabetes,Observation,High,Private,East,'In Treatment'
+'Old Age',Female,'Low BP',High,Covid-19,Therapy,High,Medicaid,East,'In Treatment'
+'young age',Male,'Low BP',Low,Flu,Therapy,High,Uninsured,North,'In Treatment'
+'Old Age',Male,'High BP',High,Asthma,Observation,Low,Uninsured,West,'In Treatment'
+'Middle age',Male,'Low BP',Mid,Asthma,Observation,Low,Uninsured,North,'In Treatment'
+'Old Age',Male,'High BP',Low,Asthma,Therapy,Low,Private,South,'In Treatment'
+'Middle age',Male,'Low BP',Low,Hypertension,Observation,Mid,Medicare,East,'In Treatment'
+'Middle age',Male,'High BP',Mid,Flu,Medication,Mid,Uninsured,South,'In Treatment'
+'young age',Male,'High BP',Low,Hypertension,Therapy,Mid,Medicare,South,'In Treatment'
+'Middle age',Female,'High BP',Low,Hypertension,Therapy,High,Medicaid,South,'In Treatment'
+'Middle age',Female,'High BP',Mid,Diabetes,Surgery,Mid,Uninsured,North,'In Treatment'
+'Middle age',Male,'Low BP',Mid,Hypertension,Therapy,Mid,Uninsured,East,'In Treatment'
+'young age',Male,'Low BP',Low,Asthma,Observation,Low,Medicaid,East,'In Treatment'
+'Middle age',Female,'High BP',Mid,Flu,Medication,Mid,Uninsured,West,'In Treatment'
+'Middle age',Female,'Low BP',Low,Asthma,Therapy,High,Uninsured,North,'In Treatment'
+'Middle age',Male,'High BP',Mid,Flu,Observation,Low,Medicaid,South,'In Treatment'
+'Middle age',Female,'Low BP',Low,Covid-19,Medication,Low,Medicaid,East,'In Treatment'
+'Middle age',Female,'Low BP',High,Flu,Medication,Low,Medicare,South,'In Treatment'
+'young age',Female,'High BP',High,Diabetes,Therapy,Mid,Medicaid,East,'In Treatment'
+'Middle age',Male,'High BP',High,Asthma,Medication,Mid,Medicaid,South,'In Treatment'
+'young age',Male,'High BP',Low,Flu,Medication,Mid,Uninsured,South,'In Treatment'
+'Middle age',Female,'High BP',High,Diabetes,Observation,Mid,Medicaid,South,'In Treatment'
+'Old Age',Female,'Low BP',Low,Covid-19,Therapy,High,Uninsured,North,'In Treatment'
+'Old Age',Male,'High BP',Low,Asthma,Surgery,Mid,Medicaid,East,'In Treatment'
+'young age',Male,'Low BP',High,Flu,Surgery,Low,Private,East,'In Treatment'
+'Middle age',Female,'High BP',High,Asthma,Medication,Mid,Medicaid,South,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Hypertension,Observation,Low,Medicare,South,'In Treatment'
+'Old Age',Male,'High BP',Low,Diabetes,Observation,Low,Medicaid,East,'In Treatment'
+'Middle age',Male,'Low BP',High,Diabetes,Observation,Mid,Medicare,South,'In Treatment'
+'Old Age',Female,'High BP',Mid,Hypertension,Observation,Low,Medicare,East,'In Treatment'
+'Old Age',Female,'High BP',Mid,Covid-19,Therapy,Low,Medicare,East,'In Treatment'
+'Old Age',Male,'High BP',Mid,Covid-19,Therapy,High,Uninsured,North,'In Treatment'
+'Old Age',Female,'High BP',Mid,Asthma,Observation,Mid,Uninsured,South,'In Treatment'
+'Middle age',Female,'High BP',Mid,Covid-19,Observation,Low,Medicaid,South,'In Treatment'
+'young age',Female,'Low BP',High,Flu,Medication,High,Private,North,'In Treatment'
+'young age',Male,'High BP',High,Flu,Medication,High,Private,North,'In Treatment'
+'Old Age',Female,'High BP',High,Diabetes,Therapy,Mid,Medicaid,East,'In Treatment'
+'young age',Female,'Low BP',High,Hypertension,Medication,High,Private,East,'In Treatment'
+'Old Age',Male,'Low BP',High,Asthma,Therapy,High,Uninsured,North,'In Treatment'
+'Middle age',Male,'Low BP',High,Covid-19,Therapy,Low,Private,West,'In Treatment'
+'Old Age',Male,'High BP',Low,Asthma,Observation,Mid,Medicaid,East,'In Treatment'
+'young age',Female,'Low BP',Low,Hypertension,Medication,High,Private,East,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Asthma,Therapy,Low,Medicaid,North,'In Treatment'
+'young age',Male,'High BP',Low,Flu,Medication,Mid,Medicaid,South,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Hypertension,Observation,High,Medicare,South,'In Treatment'
+'Old Age',Male,'Low BP',Mid,Diabetes,Therapy,Mid,Medicare,North,'In Treatment'
+'young age',Male,'High BP',High,Asthma,Observation,Low,Medicare,South,'In Treatment'
+'Middle age',Female,'Low BP',Low,Asthma,Therapy,High,Medicaid,North,'In Treatment'
+'Old Age',Female,'High BP',High,Covid-19,Medication,Mid,Uninsured,South,'In Treatment'
+'Middle age',Male,'High BP',High,Asthma,Surgery,Mid,Medicare,South,'In Treatment'
+'Middle age',Female,'High BP',High,Covid-19,Observation,Mid,Uninsured,West,'In Treatment'
+'young age',Female,'High BP',Low,Diabetes,Medication,Mid,Medicaid,West,'In Treatment'
+'young age',Female,'High BP',Mid,Diabetes,Medication,Mid,Medicaid,South,'In Treatment'
+'Old Age',Male,'Low BP',Low,Covid-19,Medication,Mid,Medicaid,North,'In Treatment'
+'Middle age',Male,'High BP',Low,Hypertension,Therapy,Low,Medicare,South,'In Treatment'
+'young age',Male,'Low BP',Low,Flu,Therapy,Low,Medicare,East,'In Treatment'
+'Old Age',Female,'High BP',High,Covid-19,Surgery,Mid,Medicare,North,'In Treatment'
+'Middle age',Male,'High BP',High,Diabetes,Surgery,Mid,Medicare,South,'In Treatment'
+'young age',Male,'Low BP',Low,Flu,Therapy,High,Uninsured,North,'In Treatment'
+'Middle age',Male,'High BP',High,Flu,Medication,High,Uninsured,East,'In Treatment'
+'young age',Female,'Low BP',Mid,Diabetes,Therapy,Mid,Medicaid,East,'In Treatment'
+'Old Age',Female,'High BP',Mid,Asthma,Surgery,High,Medicare,North,'In Treatment'
+'Old Age',Male,'Low BP',Mid,Diabetes,Therapy,Mid,Medicare,North,'In Treatment'
+'Old Age',Female,'Low BP',Low,Covid-19,Therapy,Low,Medicare,South,'In Treatment'
+'Old Age',Male,'Low BP',Mid,Diabetes,Therapy,Mid,Medicare,North,'In Treatment'
+'Middle age',Female,'Low BP',High,Hypertension,Medication,High,Medicaid,South,'In Treatment'
+'Old Age',Male,'High BP',Mid,Covid-19,Medication,High,Medicare,East,'In Treatment'
+'young age',Male,'High BP',High,Asthma,Observation,Low,Medicare,South,'In Treatment'
+'young age',Female,'High BP',Low,Asthma,Surgery,High,Private,East,'In Treatment'
+'young age',Male,'Low BP',Low,Asthma,Medication,Mid,Medicaid,East,'In Treatment'
+'Middle age',Male,'Low BP',High,Covid-19,Therapy,Low,Private,South,'In Treatment'
+'Middle age',Male,'Low BP',Mid,Flu,Observation,High,Uninsured,East,'In Treatment'
+'Middle age',Female,'Low BP',Mid,Diabetes,Observation,Low,Medicare,South,'In Treatment'
+'young age',Female,'High BP',Mid,Asthma,Surgery,Mid,Private,North,'In Treatment'
+'young age',Male,'Low BP',High,Covid-19,Therapy,Mid,Uninsured,West,'In Treatment'
+'Middle age',Male,'Low BP',High,Hypertension,Medication,Low,Medicaid,East,'In Treatment'
+'young age',Male,'High BP',Low,Asthma,Medication,Mid,Uninsured,South,'In Treatment'
+'young age',Male,'Low BP',Low,Asthma,Medication,Low,Private,East,'In Treatment'
+'Old Age',Male,'Low BP',Low,Hypertension,Therapy,Low,Medicaid,East,'In Treatment'
+'Middle age',Male,'High BP',Low,Flu,Surgery,Mid,Medicaid,West,'In Treatment'
+'Middle age',Female,'High BP',Low,Diabetes,Observation,Low,Uninsured,East,'In Treatment'
+'Middle age',Female,'High BP',High,Flu,Observation,Mid,Private,North,'In Treatment'
+'Old Age',Male,'Low BP',High,Hypertension,Surgery,High,Medicaid,South,'In Treatment'
+'young age',Male,'High BP',Mid,Flu,Medication,Mid,Private,South,'In Treatment'
+'Middle age',Male,'Low BP',Mid,Diabetes,Medication,High,Medicaid,South,'In Treatment'
+'young age',Female,'Low BP',Low,Covid-19,Surgery,Mid,Medicare,East,'In Treatment'
+'Old Age',Female,'High BP',Mid,Covid-19,Observation,Low,Medicaid,East,'In Treatment'
+'young age',Female,'High BP',Mid,Asthma,Surgery,Mid,Uninsured,North,'In Treatment'
+'young age',Female,'High BP',Low,Diabetes,Observation,Mid,Uninsured,East,'In Treatment'
+'Middle age',Female,'High BP',Low,Diabetes,Observation,Mid,Private,West,'In Treatment'
+'Old Age',Male,'High BP',High,Flu,Medication,Mid,Private,West,'In Treatment'
+'Old Age',Female,'High BP',Low,Diabetes,Observation,Low,Uninsured,West,'In Treatment'
+'young age',Male,'High BP',Mid,Diabetes,Therapy,Low,Medicare,North,'In Treatment'
+'young age',Female,'High BP',High,Asthma,Surgery,High,Private,East,'In Treatment'
+'Old Age',Male,'Low BP',Mid,Covid-19,Medication,Low,Private,East,'In Treatment'
+'young age',Female,'Low BP',High,Asthma,Medication,Low,Uninsured,West,'In Treatment'
