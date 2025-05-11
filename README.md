@@ -10,7 +10,7 @@ This repository contains a full end-to-end **healthcare analytics project** focu
 
 ### 👤 Author:
 **Atiqahmed Hanifmohmed Rathod**  
-**Student ID:** M00836914
+
 
 ---
 
